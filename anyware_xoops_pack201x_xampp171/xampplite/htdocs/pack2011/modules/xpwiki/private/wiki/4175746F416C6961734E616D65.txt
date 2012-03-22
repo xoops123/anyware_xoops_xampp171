@@ -1,0 +1,7 @@
+#pginfo(1		admin	3	all	all	3	all	all	1		admin	1		)
+*AutoAliasName [#qf9311bb]
+AutoAlias用の定義リストです。
+
+* PukiWiki [#ee87d39e]
+-[[pukiwiki.official>http://pukiwiki.sourceforge.jp/]]
+-[[pukiwiki.dev>http://pukiwiki.sourceforge.jp/dev/]]

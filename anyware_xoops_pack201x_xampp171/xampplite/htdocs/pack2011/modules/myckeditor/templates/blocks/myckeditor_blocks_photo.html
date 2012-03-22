@@ -1,0 +1,28 @@
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<{foreach item=photo key=count from=$block.photo  name=photo_list}>
+<{* -- open table row -- *}>
+<{if $block.cols == 1}>
+ <tr>
+<{elseif $smarty.foreach.photo_list.iteration mod $block.cols == 1}>
+ <tr>
+<{/if}>
+<{if $block.show_type == 'image'}>
+ <{capture assign="shwo_url"}><{$photo.image_url}><{/capture}>
+<{else}>
+ <{capture assign="shwo_url"}><{$photo.thumbs_url}><{/capture}>
+<{/if}>
+	<td valign="middle" align="center" style="margin:0px;padding:5px 0px;">
+		<a href="<{$photo.image_url|escape}>" class="pretty" rel="myckeditor[gallery]" title="<{$photo.shortname}>" >
+			<img src="<{$shwo_url|escape}>" <{$photo.img_attribs}> title="<{$photo.shortname|escape}>" alt="type:<{$photo.imageInfo.type}> &nbsp&nbsp size:(<{$photo.imageInfo.width}>x<{$photo.imageInfo.height}>) &nbsp&nbsp date:<{"Y/m/d"|date:$photo.filemtime}>" />
+		</a>
+	</td>
+<{* -- close table row -- *}>
+<{if $block.cols == 1}>
+ </tr>
+<{elseif $smarty.foreach.photo_list.iteration is div by $block.cols}>
+ </tr>
+<{elseif $smarty.foreach.photo_list.last}>
+ </tr>
+<{/if}>
+<{/foreach}>
+</table>

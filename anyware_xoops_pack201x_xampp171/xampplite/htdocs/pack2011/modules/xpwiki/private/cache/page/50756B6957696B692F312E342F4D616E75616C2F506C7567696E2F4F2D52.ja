@@ -1,0 +1,559 @@
+a:4:{s:4:"body";s:44060:"
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+
+
+<!--description ignore-->
+<div class="contents">
+ <div class="toc_header">
+  ページ内コンテンツ
+ </div>
+ <div class="toc_body">
+  <ul class="list1"><li><a href="#c4c5830a">  O </a>
+<ul class="list2"><li><a href="#vc9c6801"> online </a></li></ul></li>
+<li><a href="#eb773236">  P </a>
+<ul class="list2"><li><a href="#v8e0f909"> paint </a></li>
+<li><a href="#n889950d"> pcomment </a></li>
+<li><a href="#aa6d5e99"> popular </a></li></ul></li>
+<li><a href="#heb39161">  R </a>
+<ul class="list2"><li><a href="#bdab4a5d"> random </a></li>
+<li><a href="#qd5d7395"> read </a></li>
+<li><a href="#f6f25416"> recent </a></li>
+<li><a href="#h9e797dc"> ref </a></li>
+<li><a href="#l8d62a01"> referer </a></li>
+<li><a href="#v4da5475"> related </a></li>
+<li><a href="#m95d6531"> rename </a></li>
+<li><a href="#iaac8b70"> rss </a></li>
+<li><a href="#v879eb4d"> rss10 </a></li>
+<li><a href="#u3fad1fe"> ruby </a></li></ul></li></ul>
+ </div>
+</div>
+<!--/description ignore-->
+
+<hr class="full_hr" />
+<div id="c4c5830a" class="level2">
+<h2 id="content_2_0">O  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#c4c5830a" title="c4c5830a"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--c4c5830a--></div>
+<div id="vc9c6801" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_1">online  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#vc9c6801" title="vc9c6801"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p>
+<p>インライン型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>#online</strong></p>
+<p><strong>&amp;online</strong><strong>;</strong></p></dd>
+<dt>概要</dt>
+<dd><p>現在<a href="/pack2011/modules/xpwiki/?PukiWiki" title="PukiWiki (2184d)" class="pagelink">PukiWiki</a>を参照している、おおよそのユーザー数を表示します。</p>
+<p>ユーザー数は、プラグインを呼び出された時点で記録されたＩＰアドレスとタイムスタンプのうち、５分以内(変更可能)にアクセスのあったアドレスの数です。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_ONLINE_TIMEOUT　タイムアウトの秒数</li>
+<li>PLUGIN_ONLINE_USER_LIST　ユーザー情報を保存するファイル</li>
+<li>PLUGIN_ONLINE_LIST_REGEX　ユーザー情報取得用の正規表現</li></ul></dd>
+<dt>備考</dt>
+<dd><p>ユーザー数のカウントはページ単位でなく、設置された<a href="/pack2011/modules/xpwiki/?PukiWiki" title="PukiWiki (2184d)" class="pagelink">PukiWiki</a>毎に行っているため、<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>など頻繁に呼び出される場所に記述するかスキンに埋め込むのが普通です。</p></dd></dl>
+<hr class="full_hr" />
+<!--vc9c6801--></div>
+<div id="eb773236" class="level2">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h2 id="content_2_2">P  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#eb773236" title="eb773236"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--eb773236--></div>
+<div id="v8e0f909" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_3">paint  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#v8e0f909" title="v8e0f909"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>（コマンド）</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#paint(</strong>
+[<span style="color:blue">幅</span>]
+[,<span style="color:blue">高さ</span>]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>Javaアプレットで描いた絵を、そのページに添付します。</p>
+<p><a href="http://www.geocities.co.jp/SiliconValley-SanJose/8609/" title="www.geocities.co.jp/SiliconValley-SanJose/8609/" class="ext">ば科学的愛情</a>で配布されている<a href="http://www.geocities.co.jp/SiliconValley-SanJose/8609/java/bbspainter/" title="www.geocities.co.jp/SiliconValley-SanJose/8609/java/bbspainter/" class="ext">BBSPainter.jar</a>を使用しています。</p>
+<p>幅と高さに、デフォルトのキャンバスサイズを指定します。省略時は(80,60)となります（変更可能）</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PAINT_INSERT_INS　入力内容を先頭/末尾のどちらに挿入するか</li>
+<li>PAINT_DEFAULT_WIDTH　デフォルトの描画領域の幅</li>
+<li>PAINT_DEFAULT_HEIGHT　デフォルトの描画領域の高さ</li>
+<li>PAINT_MAX_WIDTH　描画領域の幅の上限</li>
+<li>PAINT_MAX_HEIGHT　描画領域の高さの上限</li>
+<li>PAINT_APPLET_WIDTH　アプレット領域の幅</li>
+<li>PAINT_APPLET_HEIGHT　アプレット領域の高さ</li>
+<li>PAINT_NAME_FORMAT　名前欄の挿入フォーマット</li>
+<li>PAINT_MSG_FORMAT　コメント欄の挿入フォーマット</li>
+<li>PAINT_NOW_FORMAT　時刻欄の挿入フォーマット</li>
+<li>PAINT_FORMAT　コメント内容全体の挿入フォーマット（メッセージあり）</li>
+<li>PAINT_FORMAT_NOMSG　コメント内容全体の挿入フォーマット（メッセージなし）</li></ul></dd>
+<dt>備考</dt>
+<dd><p><a href="/pack2011/modules/xpwiki/?PukiWiki" title="PukiWiki (2184d)" class="pagelink">PukiWiki</a>のインストールディレクトリに上記BBSPainter.jarを入れるのを忘れないでください。このプラグインが何の役にも立たなくなります。</p></dd></dl>
+<!--v8e0f909--></div>
+<div id="n889950d" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_4">pcomment  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#n889950d" title="n889950d"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>（コマンド）</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#pcomment(</strong>{
+[<span style="color:blue">コメント記録ページ</span>],
+[<span style="color:blue">表示件数</span>],
+[<span style="color:blue">noname</span>],
+[<span style="color:blue">nodate</span>],
+[<span style="color:blue">above</span>],
+[<span style="color:blue">below</span>],
+[<span style="color:blue">reply</span>],
+[<span style="color:blue">template:&lt;STRING&gt;</span>],
+[<span style="color:blue">cols:&lt;DIGIT&gt;</span>],
+[<span style="color:blue">multi:&lt;DIGIT&gt;</span>],
+[<span style="color:blue">emoji</span>],
+[<span style="color:blue">noemoji</span>]
+}<strong>){{</strong><br />
+&lt;複数行引数&gt;<br />
+<strong>}}</strong></dd>
+<dt>概要</dt>
+<dd><p>別のページにコメントを記録することができるcommentプラグインです。設置した場所には最新のコメントだけを表示することができます。ラジオボタンを表示し、指定した部分にコメントを付けることもできます。</p></dd>
+<dt>引数</dt>
+<dd><p>コメント記録ページ にはコメントを記録するページ名を指定します(ページ名の前に&quot;ディレクトリ名:&quot;を付加することにより別ディレクトリのxpWikiを指定することもできます)。省略すると、pcommentプラグイン内の PLUGIN_PCOMMENT_PAGE で指定されたページにコメントが記録されます。デフォルトは [コメント/(設置したページ名)] です。指定したページが存在しなくても、最初にコメントを追加した時に作成します。</p>
+<p>表示件数 は表示する最新コメントの数を指定します。第1レベルの番号なしリストだけをカウントします。省略すると、pcommentのデフォルト件数(通常10件。 PLUGIN_PCOMMENT_NUM_COMMENTS で変更可能)が表示されます。<br />
+表示件数は コメント記録ページ より後に指定して下さい。コメント記録ページを省略して 表示件数 を指定する場合は、 コメント記録ページ に空白を指定します。（例: #pcomment(,15)）</p>
+<p>noname,nodate,above,below,reply でコメントの表示方法、入力方法を指定します。</p>
+<ul class="list2"><li>noname − 名前の入力欄を表示しません。</li>
+<li>nodate − 日付を挿入しません。</li>
+<li>above − 挿入したコメントをフォームの上に表示します。コメントは上が古く、下に向かって新しい順に並びます。</li>
+<li>below − 挿入したコメントをフォームの下に表示します。コメントは下が古く、上に向かって新しい順に並びます。</li>
+<li>reply − コメントの頭にラジオボタンを表示します。あるコメントに対するリプライが、そのコメントのラジオボタンをチェックすることで可能になります。</li>
+<li>template:&lt;STRING&gt; − &lt;STRING&gt; に挿入形式テンプレート名を指定します。(省略時: default)</li>
+<li>cols:&lt;DIGIT&gt; − &lt;DIGIT&gt; にメッセージ入力欄の幅を数値で指定します。(省略時: PLUGIN_PCOMMENT_SIZE_MSG の値)</li>
+<li>multi:&lt;DIGIT&gt; − &lt;DIGIT&gt; にメッセージ入力欄の行数を数値で指定します。1以上を指定すると入力欄は&lt;textarea&gt; になります。(省略時: 0)</li>
+<li>noemoji − 絵文字入力パットを非表示にします。(省略時: 絵文字パットを表示する)</li></ul></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PAGE　        ページ名のデフォルト(%sに$vars['page']が入る)</li>
+<li>NUM_COMMENTS　表示する(最新の)コメント数のデフォルト</li>
+<li>SIZE_NAME　  名前欄の表示桁数</li>
+<li>SIZE_MSG　   コメント欄の表示桁数</li>
+<li>DIRECTION_DEFAULT　入力内容を先頭/末尾のどちらに挿入するか</li>
+<li>FORMAT_NAME['&lt;テンプレート名&gt;']　名前欄の挿入フォーマット</li>
+<li>FORMAT_MSG['&lt;テンプレート名&gt;']　 コメント欄の挿入フォーマット</li>
+<li>FORMAT_NOW['&lt;テンプレート名&gt;']　 時刻欄の挿入フォーマット</li>
+<li>FORMAT_STRING　コメント内容全体の挿入フォーマット</li>
+<li>AUTO_LOG　自動過去ログ化を行う際の1ページあたりの件数(0で無効)</li>
+<li>TIMESTAMP　コメントページのタイムスタンプを更新せず、設置ページのタイムスタンプを更新するか</li>
+<li>TEMPLATE_DEFAULT　テンプレート名のデフォルト値</li>
+<li>NEW_PAGE_FORMAT　コメントページを新規作成する場合のページフォーマット。オートテンプレートに対応していますので、該当テンプレートページがある場合はそのページが使用されます。</li>
+<li>LOG_PAGE_FORMAT　過去ログページを新規作成する場合のページフォーマット。オートテンプレートに対応していますので、該当テンプレートページがある場合はそのページが使用されます。</li>
+<li>TWITTER['&lt;対象ページ名&gt;'] = array(<br />
+&nbsp;&nbsp;'username'        =&gt; '&lt;TwitterのID&gt;',<br />
+&nbsp;&nbsp;'password'        =&gt; '&lt;Twitterのパスワード&gt;',<br />
+&nbsp;&nbsp;'enable_ids'      =&gt; '&lt;対象UID&gt;',<br />
+&nbsp;&nbsp;'enable_name_reg' =&gt; '&lt;対象名前(入力値)&gt;'
+);</li></ul></dd>
+<dt>備考</dt>
+<dd><p>複数行引数に対応しています。入力されたテキストは、コメントページが抜き出した内容の先頭に挿入されWikiテキストとして評価されます。</p>
+<p>更新が衝突したときは、予期せぬ場所にコメントが挿入されるのを防ぐため、リプライ先を指定して記入したコメントはaboveまたはbelowの設定にしたがって 一番前か一番後ろに追加されます。</p>
+<p>コメント記入後に表示されるページのタイトルに「(#pcommentを書いたページ)を更新しました」と表示されますが、実際に更新されたのはコメントを記録するページです。</p>
+<p>コメントとして相対参照([ [../] ]など)を用いた場合は、書いたページと書き込まれたページのどちらかで、意図したとおりに変換されない可能性があります。</p>
+<p>自動過去ログ化機能は PLUGIN_PCOMMENT_AUTO_LOG の件数 ＋ PLUGIN_PCOMMENT_NUM_COMMENTS の件数分のコメントを投稿した時に作動します。</p>
+<p>プラグイン内設定の TWITTER を指定すると、対象ページで該当するユーザーの投稿があった場合 Twitter API を用いて投稿します。</p></dd></dl>
+<!--n889950d--></div>
+<div id="aa6d5e99" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_5">popular  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#aa6d5e99" title="aa6d5e99"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#popular(</strong>
+[<span style="color:blue">件数</span>
+[,<span style="color:blue">対象外ページ</span>
+[,<span style="color:blue">today</span>|<span style="color:blue">yesterday</span>|<span style="color:blue">total</span>
+[,<span style="color:blue">集計対象の仮想階層ページ名</span>
+[,<span style="color:blue">0|1</span>]
+]
+]
+]
+]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>人気のある（参照回数の多い）ページの上位数件を表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>件数には一覧の数を指定して下さい。省略時はPLUGIN_POPULAR_DEFAULTに指定した件数です。</p>
+<p>対象外ページには、表示対象外とするページを指定します。例えば <a href="/pack2011/modules/xpwiki/" title="FrontPage (2184d)" class="pagelink">FrontPage</a> や <a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a> などのページを一覧に表示させたくないときに使用します。<br />
+また、&quot;hoge/&quot; とすると hoge の下層ページは集計されません。<br />
+複数ページを指定する場合は、&quot;#&quot; で区切って指定します。</p>
+<p>today( or 1 or true), yesterday( or -1), total( or 0 or false)で、ページのカウント条件を指定します。省略時は total です。</p>
+<ul class="list2"><li>today − 今日参照のあった回数順でページを表示します。</li>
+<li>yesterday − 昨日参照のあった回数順でページを表示します。</li>
+<li>total − 通算の参照回数順でページを表示します。</li></ul></dd></dl>
+<dl class="list1"><dd><p>集計対象の仮想階層ページ名を指定すると、その下位層のみを集計します。(ページ名の前に&quot;ディレクトリ名:&quot;を付加することにより別ディレクトリのxpWikiを指定することもできます)</p>
+<p>5番目の引数に &quot;1&quot; を指定すると多階層のページ名の場合、階層部分を省略しページ名をコンパクトに表示します。</p></dd></dl>
+<dl class="list1"><dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_POPULAR_DEFAULT　件数未指定時の件数</li></ul></dd>
+<dt>備考</dt>
+<dd><p><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FA-D#zedb02cf" title="PukiWiki/1.4/Manual/Plugin/A-D (367d)" class="pagelink">counter</a>プラグインのカウンター情報を利用しているので、counterプラグインを設置していないページはカウントの対象外となります。全てのページにcounterプラグインを設置するのは非効率であるため counterプラグインをMenubarやスキンに設置するのが一般的です。</p></dd></dl>
+<hr class="full_hr" />
+<!--aa6d5e99--></div>
+<div id="heb39161" class="level2">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h2 id="content_2_6">R  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#heb39161" title="heb39161"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--heb39161--></div>
+<div id="bdab4a5d" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_7">random  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#bdab4a5d" title="bdab4a5d"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>（コマンド）</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#random(</strong>
+[<span style="color:blue">メッセージ</span>]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>ランダムなページへのリンクを表示するプラグイン。</p>
+<p>表示するページの候補は設置したページの下階層のページです。</p></dd>
+<dt>引数</dt>
+<dd><p>メッセージにはリンクに表示する文字列を指定します。省略時は 'press here.' となります。</p></dd>
+<dt>備考</dt>
+<dd><p>ブラウザの再読み込み対策はしていません。リロードされるたびにランダムな表示を繰り返します。</p></dd></dl>
+<!--bdab4a5d--></div>
+<div id="qd5d7395" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_8">read  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#qd5d7395" title="qd5d7395"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★★★</p></dd>
+<dt>書式</dt>
+<dd><strong>?cmd=read</strong>
+<span style="color:blue">&amp;page=ページ名</span></dd>
+<dt>概要</dt>
+<dd><p>指定したページを表示します。該当ページが存在しない場合は編集状態で開き、ページ名が<a href="/pack2011/modules/xpwiki/?InterWiki" title="InterWiki (2184d)" class="pagelink">InterWiki</a>であった場合は、その解決を行います。</p>
+<p>plugin=やcmd=が指定されていない場合に内部で暗黙に呼び出されるため、利用者が意識する機会は少ないです。</p></dd>
+<dt>引数</dt>
+<dd><p>ページ名には表示したいページ名を指定します。ページ名はエンコードされている必要があります。</p></dd></dl>
+<!--qd5d7395--></div>
+<div id="f6f25416" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_9">recent  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#f6f25416" title="f6f25416"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★★★</p></dd>
+<dt>書式</dt>
+<dd><strong>#recent(</strong>
+[<span style="color:blue">パターン</span>]
+[,<span style="color:blue">件数</span>]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>指定したパターンで始まるページ名のうち、最新の数件を表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>パターンには表示するページ名の共通部分を指定します。省略時は閲覧可能なすべてのページとなります。<br class="spacer" />
+また、「<span style="color:Blue;font-weight:bold;">ディレクトリ名</span><span style="color:Red;font-weight:bold;">:</span><span style="color:Blue;font-weight:bold;">ページパターン</span>」と指定して同じシステム上の別のxpWikiの一覧表示をすることもできます。</p>
+<p>件数には表示件数を指定します。省略時はプラグイン内設定で指定した値です。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_RECENT_DEFAULT_LINES　件数未指定時の件数</li>
+<li>PLUGIN_RECENT_CACHE　<a href="/pack2011/modules/xpwiki/?RecentChanges" title="RecentChanges (20h)" class="pagelink">RecentChanges</a>のキャッシュの場所</li>
+<li>PLUGIN_RECENT_USAGE　引数未指定時に表示されるヘルプ</li>
+<li>PLUGIN_RECENT_EXEC_LIMIT　１ページ中で実行可能な上限回数</li></ul></dd></dl>
+<!--f6f25416--></div>
+<div id="h9e797dc" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_10">ref  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#h9e797dc" title="h9e797dc"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p>
+<p>インライン型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★★☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>#ref(</strong>
+<span style="color:blue">添付ファイル名</span>|
+<span style="color:blue">ページ名/添付ファイル名</span>|
+<span style="color:blue">URL</span>
+[,<span style="color:blue">ページ名</span>]
+{,
+[<span style="color:blue">set</span>],
+[<span style="color:blue">left</span>|<span style="color:blue">center</span>|<span style="color:blue">right</span>],[<span style="color:blue">wrap</span>|<span style="color:blue">nowrap</span>],
+[<span style="color:blue">around</span>],
+[<span style="color:blue">noicon</span>],
+[<span style="color:blue">noimg</span>],
+[<span style="color:blue">nolink</span>],
+[<span style="color:blue">zoom</span>],
+[<span style="color:blue">999x999</span>],
+[<span style="color:blue">999%</span>]
+}
+[,<span style="color:blue">タイトル</span>]
+<strong>)</strong></p>
+<p><strong>&amp;ref(</strong>
+<span style="color:blue">添付ファイル名</span>|
+<span style="color:blue">ページ名/添付ファイル名</span>|
+<span style="color:blue">URL</span>
+[,<span style="color:blue">ページ名</span>]
+{,
+[<span style="color:blue">noicon</span>],
+[<span style="color:blue">noimg</span>],
+[<span style="color:blue">nolink</span>],
+[<span style="color:blue">zoom</span>],
+[<span style="color:blue">999x999</span>],
+[<span style="color:blue">999%</span>]
+}
+[,<span style="color:blue">タイトル</span>]
+<strong>);</strong></p></dd>
+<dt>概要</dt>
+<dd><p>'#attach'でページに添付されたファイルを指定位置に展開します。添付ファイルが画像の場合は画像を表示し、それ以外の場合はダウンロード用のリンクを表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>添付ファイル名にはページに添付したファイル名を指定します（省略時はエラーとなります）。別ページ名/添付ファイル名とする事で別ページの添付ファイルも指定できます。</p>
+<p>ページ名にはファイルを添付したページを<a href="/pack2011/modules/xpwiki/?WikiName" title="WikiName (2591d)" class="pagelink">WikiName</a>か<a href="/pack2011/modules/xpwiki/?BracketName" title="BracketName (2184d)" class="pagelink">BracketName</a>で指定します。このオプションは最初(添付ファイル名の次)に記述してください。省略時は設置したページです。</p>
+<p>パラメータにはファイルの展開方法を指定できます。</p>
+<ul class="list2"><li>set − setとし他のパラメータを指定するとそれ以降の ref の規定値とすることができます。</li>
+<li>left|center|right − 表示時の位置を指定します。省略時はleft(変更可)です。</li>
+<li>wrap|nowrap − テーブルタグで囲む/囲まないの指定を行います。省略時はnowrap(変更可)です。</li>
+<li>around − テキストの回り込みを可能とします。省略時は回り込みを行いません。</li>
+<li>noicon − ファイルが画像以外の場合に表示されるアイコンを表示しません。省略時は表示します。</li>
+<li>noimg − ファイルが画像の場合に画像を展開しないようにします。省略時は展開します。</li>
+<li>nolink − 元ファイルへのリンクを張らないようにします。省略時はリンクします。</li>
+<li>zoom − 縦横比を保持します。省略時はサイズ指定に従います。</li>
+<li>999x999 − サイズを指定します(幅x高さ)。省略時は拡大率あるいは対象画像のサイズに従います。</li>
+<li>999% − サイズを指定(拡大率)します。省略時は100%です、</li>
+<li>タイトル − 上記以外のパラメータは画像の代替文字列、リンクのタイトル属性として使用されます。ページ名やパラメータに見える文字列を使用するときは、#ref(hoge.png,,zoom)のようにタイトルの前にカンマを余分に入れます。</li></ul></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_REF_USAGE　引数未指定時に表示されるヘルプ</li>
+<li>PLUGIN_REF_IMAGE　マッチ時に指定ファイルを画像とみなす正規表現</li>
+<li>FILE_ICON　アイコンイメージのファイル</li>
+<li>PLUGIN_REF_DEFAULT_ALIGN　left,center,right省略時の表示位置</li>
+<li>PLUGIN_REF_WRAP_TABLE　wrap,nowrap省略時にテーブルタグで囲むか</li>
+<li>PLUGIN_REF_URL_GET_IMAGE_SIZE　URL指定時に画像サイズを取得するか</li>
+<li>PLUGIN_REF_DIRECT_ACCESS　添付ファイルの画像表示で UPLOAD_DIR のデータに直接アクセスするか</li></ul></dd></dl>
+<dl class="list1"><dt>備考</dt>
+<dd><p>aroundで行った回り込み指定を解除するには clearプラグイン、あるいはimgプラグインを使用して下さい。</p>
+<p>&quot;ほげ&quot;という別ページの添付ファイル&quot;fuga.jpg&quot;をインラインプラグイン形式で参照する場合、下記２通りの記述方法が存在します。</p>
+<div class="pre"><pre>(1) &amp;ref(ほげ/fuga.jpg);
+(2) &amp;ref(fuga.jpg,[[ほげ]]);</pre></div>
+<p>上記２通りの記述のうち、(2)の記述方式は旧バージョンと互換性を維持するために用意されたもので、推奨される記述方式は(1)です。<br class="spacer" />
+いずれの記述方法であっても一般的な動作は同じですが、いわゆるバナー画像のように表示した画像が別ページへのリンクとなるよう以下の指定をした場合、</p>
+<div class="pre"><pre>(1)  [[&amp;ref(ほげ/fuga.jpg,nolink,ウェブ名);&gt;ウェブのURL]]
+(2)  [[&amp;ref(fuga.jpg,[[ほげ]],nolink,ウェブ名);&gt;ウェブのURL]]</pre></div>
+(1)の記述方法は期待通りの動作をしますが、(2)の記述方法ではうまくリンクされません。<br class="spacer" />
+また、ほげというページに添付された画像を、そのページ内でパラメータを指定して（例えば半分の比率で）表示する場合、
+<div class="pre"><pre>(3)  &amp;ref(./fuga.jpg,50%);
+(4)  &amp;ref(ほげ/fuga.jpg,50%);
+(5)  &amp;ref(fuga.jpg,[[ほげ]],50%);
+(6)  &amp;ref(fuga.jpg,50%);</pre></div>
+(3)〜(5)は期待通りに同じ結果をしますが、(6)はエラーとなります。
+これは(6)の書式が(2)の記述方式であるため、
+添付ファイル名fuga.jpgの次の引数にページ名を期待するためです。
+<div class="pre"><pre>(7)  &amp;ref(fuga.jpg);</pre></div>
+(7)は(6)と似た記述ですが、添付ファイル名の次の引数が省略されているため、エラーにはなりません。</dd></dl>
+<!--h9e797dc--></div>
+<div id="l8d62a01" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_11">referer  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#l8d62a01" title="l8d62a01"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?plugin=referer</strong>
+[<span style="color:blue">&amp;page=ページ名</span>]
+[<span style="color:blue">&amp;sort=</span>
+<span style="color:blue">0d</span>|<span style="color:blue">0a</span>|
+<span style="color:blue">1d</span>|<span style="color:blue">1a</span>|
+<span style="color:blue">2d</span>|<span style="color:blue">2a</span>|
+<span style="color:blue">3</span>
+]</dd>
+<dt>概要</dt>
+<dd><p>ページを照会した利用者の参照元URL(Referer)の一覧を表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>ページ名にはRefererを表示するページ名を指定します。ページ名はエンコードされている必要があります。省略時はRefererが記録されているページの一覧を表示します。</p>
+<p>sortでReferer一覧のソート順を指定します。</p>
+<ul class="list2"><li>0d − 最終更新日時(新着順)</li>
+<li>0a − 最終更新日時(日付順)</li>
+<li>1d − 初回登録日時(新着順)</li>
+<li>1a − 初回登録日時(日付順)</li>
+<li>2d − カウンタ(大きい順)</li>
+<li>2a − カウンタ(小さい順)</li>
+<li>3 − Referer</li></ul></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>CONFIG_REFERER　無視するURIを指定したページ</li></ul></dd>
+<dt>備考</dt>
+<dd><p>pukiwiki.ini.php で、Refererを使用する設定($referer = 1を指定)が行われている必要があります。</p></dd></dl>
+<!--l8d62a01--></div>
+<div id="v4da5475" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_12">related  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#v4da5475" title="v4da5475"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p>
+<p>擬似ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>?plugin=related</strong>
+[<span style="color:blue">&amp;page=ページ名</span>]</p>
+<p><strong>#related</strong></p></dd>
+<dt>概要</dt>
+<dd><p>対象のページを参照しているページの一覧を表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>ブロック型で実行時、設置したページが対象となります。</p>
+<p>コマンドで実行時、ページ名に対象となるページを指定できます。省略した場合、トップページが指定されたとみなします。</p></dd></dl>
+<!--v4da5475--></div>
+<div id="m95d6531" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_13">rename  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#m95d6531" title="m95d6531"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?plugin=rename</strong>
+[<span style="color:blue">&amp;refer=ページ名</span>]</dd>
+<dt>概要</dt>
+<dd><p>既存ページの名前を変更します。実行には管理者権限が必要です。</p>
+<p>ページの本文のほか、指定されたページ名の差分、バックアップ、添付ファイル、カウンターを一気にリネームします。</p></dd>
+<dt>引数</dt>
+<dd><p>ページ名には変更するページの名前を指定します。省略時はページ名の選択または正規表現置換用文字列入力画面が表示されます。</p>
+<p>実行結果は変換結果のページ（PLUGIN_RENAME_LOGPAGE で指定。標準は :<span class="noexists">RenameLog<a href="/pack2011/modules/xpwiki/?cmd=edit&amp;page=RenameLog&amp;refer=PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R" class="pagelink" title="RenameLog の編集"><img src="/pack2011/modules/xpwiki/image/paraedit.png" alt="編集" height="9" width="9" /></a></span>）に追記されます。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_RENAME_LOGPAGE　ページ名の変換結果を出力するページ名</li></ul></dd>
+<dt>備考</dt>
+<dd><p>ページ内のリンクの書き換えは行ないません。yetlistなどを駆使して対処してください。</p>
+<p><span class="noexists">TrackBack<a href="/pack2011/modules/xpwiki/?cmd=edit&amp;page=TrackBack&amp;refer=PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R" class="pagelink" title="TrackBack の編集"><img src="/pack2011/modules/xpwiki/image/paraedit.png" alt="編集" height="9" width="9" /></a></span>やRefererの情報は更新されません。</p>
+<p>リネーム対象のページが凍結されているかどうかはチェックしていません。</p>
+<p>関連ページにリネーム対象の文字列が複数含まれているとおかしくなります。</p>
+<ul class="list2"><li>たとえば、hogeおよびhoge/hogeという二つのページがあったときに、hogeページをfugaに(関連ページを含んで)リネームすると、hoge/hogeページの名前がfuga/fugaになってしまいます。</li></ul></dd></dl>
+<!--m95d6531--></div>
+<div id="iaac8b70" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_14">rss  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#iaac8b70" title="iaac8b70"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>?plugin=rss</strong>
+[<span style="color:blue">&amp;ver=</span><span style="color:blue">0.91</span>|
+<span style="color:blue">1.0</span>|
+<span style="color:blue">2.0</span>]</p></dd>
+<dt>概要</dt>
+<dd><p><a href="/pack2011/modules/xpwiki/?RecentChanges" title="RecentChanges (20h)" class="pagelink">RecentChanges</a>をRSSに変換して出力します。</p></dd>
+<dt>引数</dt>
+<dd><p>verで出力するRSSを指定します。省略時は0.91を出力します。</p></dd>
+<dt>備考</dt>
+<dd><p>RSSはサイトの要約を配信するために使われるXMLフォーマットです。RSS 1.0はRDF(Resource Description Framework)にもとづいたRSS 0.9の後継フォーマットです。RSS 0.91は RDFにもとづかないRSSの実装で、RSS 2.0は RSS 0.91および 0.92の後継フォーマットです。RSSという頭字語が何の略であるかは、それぞれ異なります。</p>
+<p><strong>RSS 0.9および1.0</strong>: RDF Site Summary</p>
+<p><strong>RSS 0.91および0.92</strong>: Rich Site Summary</p>
+<p><strong>RSS 2.0</strong>: Really Simple Syndication</p></dd></dl>
+<!--iaac8b70--></div>
+<div id="v879eb4d" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_15">rss10  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#v879eb4d" title="v879eb4d"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>?cmd=rss10</strong></p></dd>
+<dt>概要</dt>
+<dd><p><a href="/pack2011/modules/xpwiki/?RecentChanges" title="RecentChanges (20h)" class="pagelink">RecentChanges</a>をRSS(RDF Site Summary)1.0に変換して出力します。</p></dd>
+<dt>備考</dt>
+<dd><p>rss10プラグインの機能はrssプラグインにマージされたため、
+このプラグインは過去との互換性のためにのみ存在しています。
+(将来的に削除される可能性があります)</p>
+<p>このプラグインにアクセスすると、HTTPステータス・コード 301
+(Moved Permanently)とともに、ver=1.0オプションを指定したrssプラグイン
+のURIへリダイレクトされます。</p></dd></dl>
+<!--v879eb4d--></div>
+<div id="u3fad1fe" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_2_16">ruby  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FO-R#u3fad1fe" title="u3fad1fe"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>インライン型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>&amp;ruby(</strong>
+<span style="color:blue">ルビ</span>
+<strong>){</strong>
+<span style="color:blue">対象文字列</span>
+<strong>};</strong></dd>
+<dt>概要</dt>
+<dd><p>文字列にルビをふります。</p></dd>
+<dt>引数</dt>
+<dd><p>ルビには表示するルビを指定します。</p>
+<p>対象文字列にはルビがふられる文字列を指定します。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_RUBY_USAGE　引数未指定時に表示されるヘルプ</li></ul></dd>
+<dt>備考</dt>
+<dd><p>XHTML 1.1のルビに対応したブラウザでないと、ルビとして表示されません。IE5.5/6では表示できます。Netscape 7/Mozillaでは<a href="http://white.sakura.ne.jp/~piro/xul/_rubysupport.html" title="white.sakura.ne.jp/~piro/xul/_rubysupport.html" class="ext">XHTML Ruby Support</a>を組み込めば表示できます。</p>
+<p>ルビに対応していないブラウザではルビをふる文字列の直後にルビが( )に入れられて表示されます。</p></dd></dl>
+
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+<!--u3fad1fe--></div>
+
+";s:4:"root";a:10:{s:12:"foot_explain";a:0:{}s:13:"head_pre_tags";a:0:{}s:9:"head_tags";a:0:{}s:7:"related";a:8:{s:8:"PukiWiki";i:1136771431;s:7:"MenuBar";i:1100902204;s:9:"FrontPage";i:1136776235;s:30:"PukiWiki/1.4/Manual/Plugin/A-D";i:1293775200;s:9:"InterWiki";i:1136784511;s:13:"RecentChanges";i:1325464528;s:8:"WikiName";i:1101622103;s:11:"BracketName";i:1136771431;}s:7:"runmode";N;s:13:"content_title";s:1:"O";s:7:"nonflag";a:1:{s:7:"related";b:1;}s:15:"replaces_finish";a:0:{}s:18:"pagecache_profiles";s:0:"";s:16:"meta_description";s:318:"種別ブロック型プラグインインライン型プラグイン重要度★★☆☆☆書式#online&amp;online;概要現在PukiWikiを参照している、おおよそのユーザー数を表示します。ユーザー数は、プラグインを呼び出された時点で記録されたＩＰアドレスとタ";}s:4:"cont";a:1:{s:12:"SKIN_CHANGER";i:1;}s:7:"globals";a:0:{}}

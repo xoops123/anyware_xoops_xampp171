@@ -1,0 +1,169 @@
+[Mon Jan 02 17:30:08 2012] [notice] Digest: generating secret for digest authentication ...
+[Mon Jan 02 17:30:08 2012] [notice] Digest: done
+[Mon Jan 02 17:30:10 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Mon Jan 02 17:30:10 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Mon Jan 02 17:30:10 2012] [notice] Parent: Created child process 5728
+[Mon Jan 02 17:30:12 2012] [notice] Digest: generating secret for digest authentication ...
+[Mon Jan 02 17:30:12 2012] [notice] Digest: done
+[Mon Jan 02 17:30:13 2012] [notice] Child 5728: Child process is running
+[Mon Jan 02 17:30:13 2012] [notice] Child 5728: Acquired the start mutex.
+[Mon Jan 02 17:30:13 2012] [notice] Child 5728: Starting 250 worker threads.
+[Mon Jan 02 17:30:14 2012] [notice] Child 5728: Starting thread to listen on port 443.
+[Mon Jan 02 17:30:14 2012] [notice] Child 5728: Starting thread to listen on port 80.
+[Mon Jan 02 17:35:39 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/install/important.png, referer: http://localhost/pack2011/install/style.css
+[Mon Jan 02 17:35:42 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/install/important.png, referer: http://localhost/pack2011/install/style.css
+[Mon Jan 02 18:35:30 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/xpwiki/favicon.ico
+[Mon Jan 02 18:35:30 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/xpwiki/favicon.ico
+[Mon Jan 02 18:48:24 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/bulletin/favicon.ico
+[Mon Jan 02 18:48:24 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/bulletin/favicon.ico
+[Mon Jan 02 18:52:32 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/pico/favicon.ico
+[Mon Jan 02 18:52:32 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/pico/favicon.ico
+[Mon Jan 02 22:33:09 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/gnavi/favicon.ico
+[Mon Jan 02 22:33:09 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/gnavi/favicon.ico
+[Mon Jan 02 22:33:10 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/gnavi/favicon.ico
+[Tue Jan 03 11:06:09 2012] [warn] pid file z:/xampplite/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 03 11:06:09 2012] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 03 11:06:09 2012] [notice] Digest: done
+[Tue Jan 03 11:06:12 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Tue Jan 03 11:06:12 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Tue Jan 03 11:06:12 2012] [notice] Parent: Created child process 2972
+[Tue Jan 03 11:06:14 2012] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 03 11:06:14 2012] [notice] Digest: done
+[Tue Jan 03 11:06:16 2012] [notice] Child 2972: Child process is running
+[Tue Jan 03 11:06:16 2012] [notice] Child 2972: Acquired the start mutex.
+[Tue Jan 03 11:06:16 2012] [notice] Child 2972: Starting 250 worker threads.
+[Tue Jan 03 11:06:16 2012] [notice] Child 2972: Starting thread to listen on port 443.
+[Tue Jan 03 11:06:16 2012] [notice] Child 2972: Starting thread to listen on port 80.
+[Tue Jan 03 13:28:03 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/themes/pack2011_default/images/favicon.ico
+[Tue Jan 03 13:28:04 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/themes/pack2011_default/images/favicon.ico
+[Tue Jan 03 13:48:52 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/bulletin/favicon.ico
+[Tue Jan 03 13:48:52 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/bulletin/favicon.ico
+[Tue Jan 03 14:40:05 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/xpress/favicon.ico
+[Tue Jan 03 14:53:47 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/gnavi/favicon.ico
+[Tue Jan 03 14:53:48 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/gnavi/favicon.ico
+[Tue Jan 03 14:54:11 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/pico/favicon.ico
+[Tue Jan 03 14:54:12 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/pico/favicon.ico
+[Tue Jan 03 15:45:36 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:45:37 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:47:11 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:47:11 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:50:13 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:50:14 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:51:30 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:51:30 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:53:20 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 03 15:53:21 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Thu Jan 05 21:45:08 2012] [warn] pid file z:/xampplite/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 05 21:45:08 2012] [notice] Digest: generating secret for digest authentication ...
+[Thu Jan 05 21:45:08 2012] [notice] Digest: done
+[Thu Jan 05 21:45:12 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Thu Jan 05 21:45:12 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Thu Jan 05 21:45:12 2012] [notice] Parent: Created child process 3288
+[Thu Jan 05 21:45:16 2012] [notice] Digest: generating secret for digest authentication ...
+[Thu Jan 05 21:45:16 2012] [notice] Digest: done
+[Thu Jan 05 21:45:19 2012] [notice] Child 3288: Child process is running
+[Thu Jan 05 21:45:19 2012] [notice] Child 3288: Acquired the start mutex.
+[Thu Jan 05 21:45:19 2012] [notice] Child 3288: Starting 250 worker threads.
+[Thu Jan 05 21:45:19 2012] [notice] Child 3288: Starting thread to listen on port 443.
+[Thu Jan 05 21:45:19 2012] [notice] Child 3288: Starting thread to listen on port 80.
+[Thu Jan 05 22:17:17 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Mon Jan 09 18:31:19 2012] [warn] pid file z:/xampplite/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jan 09 18:31:19 2012] [notice] Digest: generating secret for digest authentication ...
+[Mon Jan 09 18:31:19 2012] [notice] Digest: done
+[Mon Jan 09 18:31:23 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Mon Jan 09 18:31:23 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Mon Jan 09 18:31:23 2012] [notice] Parent: Created child process 2824
+[Mon Jan 09 18:31:25 2012] [notice] Digest: generating secret for digest authentication ...
+[Mon Jan 09 18:31:25 2012] [notice] Digest: done
+[Mon Jan 09 18:31:27 2012] [notice] Child 2824: Child process is running
+[Mon Jan 09 18:31:27 2012] [notice] Child 2824: Acquired the start mutex.
+[Mon Jan 09 18:31:27 2012] [notice] Child 2824: Starting 250 worker threads.
+[Mon Jan 09 18:31:27 2012] [notice] Child 2824: Starting thread to listen on port 443.
+[Mon Jan 09 18:31:27 2012] [notice] Child 2824: Starting thread to listen on port 80.
+[Mon Jan 09 18:32:15 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Mon Jan 09 18:46:52 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/common/fckeditor, referer: http://localhost/pack2011/modules/pico/index.php?content_id=1
+[Mon Jan 09 18:46:52 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/pico/favicon.ico
+[Mon Jan 09 18:46:52 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/pico/favicon.ico
+[Mon Jan 09 18:46:53 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/common/fckeditor, referer: http://localhost/pack2011/modules/pico/index.php?content_id=1
+[Mon Jan 09 18:46:58 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Mon Jan 09 18:47:12 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Mon Jan 09 18:47:22 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Mon Jan 09 18:48:55 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Mon Jan 09 18:51:04 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Mon Jan 09 18:51:57 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Mon Jan 09 18:51:57 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 10 21:25:36 2012] [warn] pid file z:/xampplite/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 10 21:25:36 2012] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 10 21:25:36 2012] [notice] Digest: done
+[Tue Jan 10 21:25:39 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Tue Jan 10 21:25:39 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Tue Jan 10 21:25:39 2012] [notice] Parent: Created child process 2876
+[Tue Jan 10 21:25:42 2012] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 10 21:25:42 2012] [notice] Digest: done
+[Tue Jan 10 21:25:44 2012] [notice] Child 2876: Child process is running
+[Tue Jan 10 21:25:44 2012] [notice] Child 2876: Acquired the start mutex.
+[Tue Jan 10 21:25:44 2012] [notice] Child 2876: Starting 250 worker threads.
+[Tue Jan 10 21:25:44 2012] [notice] Child 2876: Starting thread to listen on port 443.
+[Tue Jan 10 21:25:44 2012] [notice] Child 2876: Starting thread to listen on port 80.
+[Tue Jan 10 21:26:02 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 10 21:27:56 2012] [warn] pid file z:/xampplite/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 10 21:27:56 2012] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 10 21:27:56 2012] [notice] Digest: done
+[Tue Jan 10 21:27:58 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Tue Jan 10 21:27:58 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Tue Jan 10 21:27:58 2012] [notice] Parent: Created child process 676
+[Tue Jan 10 21:28:00 2012] [notice] Digest: generating secret for digest authentication ...
+[Tue Jan 10 21:28:00 2012] [notice] Digest: done
+[Tue Jan 10 21:28:02 2012] [notice] Child 676: Child process is running
+[Tue Jan 10 21:28:02 2012] [notice] Child 676: Acquired the start mutex.
+[Tue Jan 10 21:28:02 2012] [notice] Child 676: Starting 250 worker threads.
+[Tue Jan 10 21:28:02 2012] [notice] Child 676: Starting thread to listen on port 443.
+[Tue Jan 10 21:28:02 2012] [notice] Child 676: Starting thread to listen on port 80.
+[Tue Jan 10 21:28:12 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Tue Jan 10 21:28:20 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/pack2011/modules/xpress/favicon.ico
+[Thu Mar 22 12:49:55 2012] [warn] pid file z:/xampplite/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 22 12:49:55 2012] [notice] Digest: generating secret for digest authentication ...
+[Thu Mar 22 12:49:55 2012] [notice] Digest: done
+[Thu Mar 22 12:49:58 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Thu Mar 22 12:49:58 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Thu Mar 22 12:49:58 2012] [notice] Parent: Created child process 2844
+[Thu Mar 22 12:50:00 2012] [notice] Digest: generating secret for digest authentication ...
+[Thu Mar 22 12:50:00 2012] [notice] Digest: done
+[Thu Mar 22 12:50:02 2012] [notice] Child 2844: Child process is running
+[Thu Mar 22 12:50:02 2012] [notice] Child 2844: Acquired the start mutex.
+[Thu Mar 22 12:50:02 2012] [notice] Child 2844: Starting 250 worker threads.
+[Thu Mar 22 12:50:02 2012] [notice] Child 2844: Starting thread to listen on port 443.
+[Thu Mar 22 12:50:02 2012] [notice] Child 2844: Starting thread to listen on port 80.
+[Thu Mar 22 13:07:38 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Thu Mar 22 16:33:18 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Thu Mar 22 16:38:03 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Thu Mar 22 18:08:52 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Thu Mar 22 21:22:51 2012] [warn] pid file z:/xampplite/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 22 21:22:51 2012] [notice] Digest: generating secret for digest authentication ...
+[Thu Mar 22 21:22:51 2012] [notice] Digest: done
+[Thu Mar 22 21:22:56 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Thu Mar 22 21:22:56 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Thu Mar 22 21:22:56 2012] [notice] Parent: Created child process 1652
+[Thu Mar 22 21:22:59 2012] [notice] Digest: generating secret for digest authentication ...
+[Thu Mar 22 21:22:59 2012] [notice] Digest: done
+[Thu Mar 22 21:23:01 2012] [notice] Child 1652: Child process is running
+[Thu Mar 22 21:23:01 2012] [notice] Child 1652: Acquired the start mutex.
+[Thu Mar 22 21:23:01 2012] [notice] Child 1652: Starting 250 worker threads.
+[Thu Mar 22 21:23:01 2012] [notice] Child 1652: Starting thread to listen on port 443.
+[Thu Mar 22 21:23:01 2012] [notice] Child 1652: Starting thread to listen on port 80.
+[Thu Mar 22 21:23:16 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Thu Mar 22 21:25:37 2012] [warn] pid file z:/xampplite/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 22 21:25:37 2012] [notice] Digest: generating secret for digest authentication ...
+[Thu Mar 22 21:25:37 2012] [notice] Digest: done
+[Thu Mar 22 21:25:39 2012] [notice] Apache/2.2.11 (Win32) DAV/2 mod_ssl/2.2.11 OpenSSL/0.9.8i PHP/5.2.9 configured -- resuming normal operations
+[Thu Mar 22 21:25:39 2012] [notice] Server built: Dec 10 2008 00:10:06
+[Thu Mar 22 21:25:39 2012] [notice] Parent: Created child process 5040
+[Thu Mar 22 21:25:42 2012] [notice] Digest: generating secret for digest authentication ...
+[Thu Mar 22 21:25:42 2012] [notice] Digest: done
+[Thu Mar 22 21:25:44 2012] [notice] Child 5040: Child process is running
+[Thu Mar 22 21:25:44 2012] [notice] Child 5040: Acquired the start mutex.
+[Thu Mar 22 21:25:44 2012] [notice] Child 5040: Starting 250 worker threads.
+[Thu Mar 22 21:25:44 2012] [notice] Child 5040: Starting thread to listen on port 443.
+[Thu Mar 22 21:25:44 2012] [notice] Child 5040: Starting thread to listen on port 80.
+[Thu Mar 22 21:27:26 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/
+[Thu Mar 22 21:29:19 2012] [error] [client 127.0.0.1] File does not exist: Z:/xampplite/htdocs/uploads, referer: http://localhost/pack2011/

@@ -1,0 +1,122 @@
+a:4:{s:4:"body";s:8120:"
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+
+
+<!--description ignore-->
+<div class="contents">
+ <div class="toc_header">
+  ページ内コンテンツ
+ </div>
+ <div class="toc_body">
+  <ul class="list1"><li><a href="#q45dc325">  E </a>
+<ul class="list2"><li><a href="#i1e8d3e8"> edit </a></li></ul></li>
+<li><a href="#n4aa1621">  F </a>
+<ul class="list2"><li><a href="#zfddbc2e"> filelist </a></li>
+<li><a href="#le1aaa47"> freeze </a></li></ul></li></ul>
+ </div>
+</div>
+<!--/description ignore-->
+
+<hr class="full_hr" />
+<div id="q45dc325" class="level2">
+<h2 id="content_6_0">E  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G#q45dc325" title="q45dc325"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--q45dc325--></div>
+<div id="i1e8d3e8" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_6_1">edit  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G#i1e8d3e8" title="i1e8d3e8"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p>
+<p>インライン型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★★★</p></dd>
+<dt>書式</dt>
+<dd><strong>?cmd=edit</strong>
+<span style="color:blue">&amp;page=ページ名</span>
+<p><strong>&amp;edit(</strong>
+[<span style="color:blue">ページ名</span>
+{[,<span style="color:blue">nolabel</span>]
+[,<span style="color:blue">noicon</span>]}]
+<strong>){</strong>
+<span style="color:blue">ラベル名</span>
+<strong>};</strong></p></dd></dl>
+<dl class="list1"><dt>概要</dt>
+<dd><p>指定したページを編集します。</p></dd>
+<dt>引数</dt>
+<dd><p>コマンド型の記述では、ページ名に編集するページを指定します。ページ名はエンコードされていなければなりません。</p>
+<p>インライン型の記述では、ページ名は編集するページを指定します。省略時は設置したページです。</p>
+<p>nolabel,noicon,ラベル名 でリンクの表示方法を指定します。</p>
+<ul class="list2"><li>nolabel −  編集用リンクの文字列をnoicon 指定時は短縮表記、未指定時は省略します。</li>
+<li>noicon − 編集用リンクに画像を表示しません。</li>
+<li>ラベル名 − 編集用リンクの文字列として表示する文字列を指定します。</li></ul></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_EDIT_FREEZE_REGEX　freezeプラグインを介さず、直接入力されたfreezeを除去する正規表現</li></ul></dd></dl>
+<hr class="full_hr" />
+<!--i1e8d3e8--></div>
+<div id="n4aa1621" class="level2">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h2 id="content_6_2">F  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G#n4aa1621" title="n4aa1621"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--n4aa1621--></div>
+<div id="zfddbc2e" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_6_3">filelist  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G#zfddbc2e" title="zfddbc2e"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?cmd=filelist</strong></dd>
+<dt>概要</dt>
+<dd><p>ページの一覧を各ページが記録されているファイル名と共に表示します。</p></dd>
+<dt>備考</dt>
+<dd><p>主として管理者がメンテナンス用途に使用します。</p></dd></dl>
+<!--zfddbc2e--></div>
+<div id="le1aaa47" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_6_4">freeze  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G#le1aaa47" title="le1aaa47"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p>
+<p>（ブロック型プラグイン）</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?cmd=freeze</strong>
+<span style="color:blue">&amp;page=ページ名</span>
+<p><strong>#freeze</strong></p></dd>
+<dt>概要</dt>
+<dd><p>対象のページを凍結し、不用意に変更できないようにします。</p></dd>
+<dt>引数</dt>
+<dd><p>ページ名には凍結するページを指定します。ページ名はエンコードされている必要があります。コマンド型でfreezeプラグインを実行するとブロック型プラグインが凍結対象のページ先頭に挿入（凍結解除の場合は削除）されます。</p>
+<p>ブロック型のfreezeプラグインは<a href="/pack2011/modules/xpwiki/?PukiWiki" title="PukiWiki (2184d)" class="pagelink">PukiWiki</a>が内部的に利用するもので、基本的に利用者が意識する機会はありません。</p></dd></dl>
+
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+<!--le1aaa47--></div>
+
+";s:4:"root";a:10:{s:12:"foot_explain";a:0:{}s:13:"head_pre_tags";a:0:{}s:9:"head_tags";a:0:{}s:7:"related";a:1:{s:8:"PukiWiki";i:1136771431;}s:7:"runmode";N;s:13:"content_title";s:1:"E";s:7:"nonflag";a:1:{s:7:"related";b:1;}s:15:"replaces_finish";a:0:{}s:18:"pagecache_profiles";s:0:"";s:16:"meta_description";s:272:"種別コマンドインライン型プラグイン重要度★★★★★書式?cmd=edit&amp;page=ページ名&amp;edit([ページ名{[,nolabel][,noicon]}]){ラベル名};概要指定したページを編集します。引数コマンド型の記述では、ページ名";}s:4:"cont";a:1:{s:12:"SKIN_CHANGER";i:1;}s:7:"globals";a:0:{}}

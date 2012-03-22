@@ -1,0 +1,134 @@
+InnoDB: The first specified data file \xampplite\mysql\data\ibdata1 did not exist:
+InnoDB: a new database to be created!
+120102 14:20:43  InnoDB: Setting file \xampplite\mysql\data\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+120102 14:20:43  InnoDB: Log file \xampplite\mysql\data\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file \xampplite\mysql\data\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+120102 14:20:43  InnoDB: Log file \xampplite\mysql\data\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file \xampplite\mysql\data\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+120102 14:20:44  InnoDB: Started; log sequence number 0 0
+120102 14:20:44 [Note] Event Scheduler: Loaded 0 events
+120102 14:20:44 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120102 14:21:12 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120102 14:21:12 [Note] Event Scheduler: Purging the queue. 0 events
+120102 14:21:12  InnoDB: Starting shutdown...
+120102 14:21:13  InnoDB: Shutdown completed; log sequence number 0 46409
+120102 14:21:13 [Warning] Forcing shutdown of 1 plugins
+120102 14:21:13 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120102 17:30:14  InnoDB: Started; log sequence number 0 46409
+120102 17:30:14 [Note] Event Scheduler: Loaded 0 events
+120102 17:30:14 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120102 23:08:24 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120102 23:08:24 [Note] Event Scheduler: Purging the queue. 0 events
+120102 23:08:24  InnoDB: Starting shutdown...
+120102 23:08:25  InnoDB: Shutdown completed; log sequence number 0 46409
+120102 23:08:25 [Warning] Forcing shutdown of 1 plugins
+120102 23:08:25 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120103 11:06:14  InnoDB: Started; log sequence number 0 46409
+120103 11:06:14 [Note] Event Scheduler: Loaded 0 events
+120103 11:06:14 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120104  5:30:23 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120104  5:30:23 [Note] Event Scheduler: Purging the queue. 0 events
+120104  5:30:23  InnoDB: Starting shutdown...
+120104  5:30:24  InnoDB: Shutdown completed; log sequence number 0 46409
+120104  5:30:24 [Warning] Forcing shutdown of 1 plugins
+120104  5:30:24 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120105 21:45:10  InnoDB: Started; log sequence number 0 46409
+120105 21:45:11 [Note] Event Scheduler: Loaded 0 events
+120105 21:45:11 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120106  0:25:28 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120106  0:25:28 [Note] Event Scheduler: Purging the queue. 0 events
+120106  0:25:28  InnoDB: Starting shutdown...
+120106  0:25:29  InnoDB: Shutdown completed; log sequence number 0 46409
+120106  0:25:29 [Warning] Forcing shutdown of 1 plugins
+120106  0:25:29 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120109 18:31:23  InnoDB: Started; log sequence number 0 46409
+120109 18:31:23 [Note] Event Scheduler: Loaded 0 events
+120109 18:31:23 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120109 18:54:23 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120109 18:54:23 [Note] Event Scheduler: Purging the queue. 0 events
+120109 18:54:25  InnoDB: Starting shutdown...
+120109 18:57:00  InnoDB: Shutdown completed; log sequence number 0 46409
+120109 18:57:00 [Warning] Forcing shutdown of 1 plugins
+120109 18:57:00 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120110 21:25:40  InnoDB: Started; log sequence number 0 46409
+120110 21:25:40 [Note] Event Scheduler: Loaded 0 events
+120110 21:25:40 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120110 21:26:21 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120110 21:26:21 [Note] Event Scheduler: Purging the queue. 0 events
+120110 21:26:21  InnoDB: Starting shutdown...
+120110 21:26:22  InnoDB: Shutdown completed; log sequence number 0 46409
+120110 21:26:22 [Warning] Forcing shutdown of 1 plugins
+120110 21:26:22 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120110 21:28:00  InnoDB: Started; log sequence number 0 46409
+120110 21:28:00 [Note] Event Scheduler: Loaded 0 events
+120110 21:28:00 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120110 21:28:27 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120110 21:28:27 [Note] Event Scheduler: Purging the queue. 0 events
+120110 21:28:27  InnoDB: Starting shutdown...
+120110 21:28:28  InnoDB: Shutdown completed; log sequence number 0 46409
+120110 21:28:28 [Warning] Forcing shutdown of 1 plugins
+120110 21:28:28 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120322 12:49:55  InnoDB: Started; log sequence number 0 46409
+120322 12:49:57 [Note] Event Scheduler: Loaded 0 events
+120322 12:49:57 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120322 18:08:57 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120322 18:08:57 [Note] Event Scheduler: Purging the queue. 0 events
+120322 18:08:57  InnoDB: Starting shutdown...
+120322 18:08:58  InnoDB: Shutdown completed; log sequence number 0 46409
+120322 18:08:58 [Warning] Forcing shutdown of 1 plugins
+120322 18:08:58 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120322 21:22:49  InnoDB: Started; log sequence number 0 46409
+120322 21:22:49 [Note] Event Scheduler: Loaded 0 events
+120322 21:22:49 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120322 21:25:23 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120322 21:25:23 [Note] Event Scheduler: Purging the queue. 0 events
+120322 21:25:23  InnoDB: Starting shutdown...
+120322 21:25:24  InnoDB: Shutdown completed; log sequence number 0 46409
+120322 21:25:24 [Warning] Forcing shutdown of 1 plugins
+120322 21:25:24 [Note] mysql\bin\mysqld.exe: Shutdown complete
+
+120322 21:25:40  InnoDB: Started; log sequence number 0 46409
+120322 21:25:40 [Note] Event Scheduler: Loaded 0 events
+120322 21:25:40 [Note] mysql\bin\mysqld.exe: ready for connections.
+Version: '5.1.33-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+120322 21:29:42 [Note] mysql\bin\mysqld.exe: Normal shutdown
+
+120322 21:29:42 [Note] Event Scheduler: Purging the queue. 0 events
+120322 21:29:42  InnoDB: Starting shutdown...
+120322 21:29:43  InnoDB: Shutdown completed; log sequence number 0 46409
+120322 21:29:43 [Warning] Forcing shutdown of 1 plugins
+120322 21:29:43 [Note] mysql\bin\mysqld.exe: Shutdown complete
+

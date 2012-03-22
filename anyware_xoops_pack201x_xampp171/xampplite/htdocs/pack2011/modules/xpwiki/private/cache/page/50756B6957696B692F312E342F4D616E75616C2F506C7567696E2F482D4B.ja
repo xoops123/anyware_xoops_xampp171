@@ -1,0 +1,189 @@
+a:4:{s:4:"body";s:13391:"
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+
+
+<!--description ignore-->
+<div class="contents">
+ <div class="toc_header">
+  ページ内コンテンツ
+ </div>
+ <div class="toc_body">
+  <ul class="list1"><li><a href="#xfadc6da">  H </a>
+<ul class="list2"><li><a href="#i56a8485"> hr </a></li></ul></li>
+<li><a href="#qaa75d46">  I </a>
+<ul class="list2"><li><a href="#v66d65c4"> img </a></li>
+<li><a href="#nd4e3577"> include </a></li>
+<li><a href="#a7f1d129"> includesubmenu </a></li>
+<li><a href="#q51c8898"> insert </a></li>
+<li><a href="#k3075466"> interwiki </a></li></ul></li></ul>
+ </div>
+</div>
+<!--/description ignore-->
+
+<hr class="full_hr" />
+<div id="xfadc6da" class="level2">
+<h2 id="content_7_0">H  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K#xfadc6da" title="xfadc6da"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--xfadc6da--></div>
+<div id="i56a8485" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_7_1">hr  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K#i56a8485" title="i56a8485"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#hr</strong></dd>
+<dt>概要</dt>
+<dd><p>文中に水平線を挿入します。</p></dd>
+<dt>備考</dt>
+<dd><p>段落やリスト、テーブル内など、通常の水平線書式(----)ではブロックを抜けてしまう個所で水平線を挿入するために用います。リスト内など左右マージンが設定されている場合は、それを引き継ぎます。</p></dd></dl>
+<hr class="full_hr" />
+<!--i56a8485--></div>
+<div id="qaa75d46" class="level2">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h2 id="content_7_2">I  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K#qaa75d46" title="qaa75d46"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--qaa75d46--></div>
+<div id="v66d65c4" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_7_3">img  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K#v66d65c4" title="v66d65c4"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#img(</strong>
+<span style="color:blue">画像URL</span>[,
+<span style="color:blue">right</span>|
+<span style="color:blue">r</span>|
+<span style="color:blue">left</span>|
+<span style="color:blue">l</span>|
+<span style="color:blue">clear</span>|
+<span style="color:blue">c</span>,[
+<span style="color:blue">clear</span>|
+<span style="color:blue">c</span>
+]]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>添付ファイル以外の画像を表示するために開発されましたが、該当機能がrefプラグインに統合されたため、基本的に使用することはありません。過去との互換性のために残っています。</p></dd>
+<dt>引数</dt>
+<dd><p>画像URLには表示する画像のURLを指定します。
+画像にはjpeg(jpg), gif, png のみ指定可能です。</p>
+<p>right,r,left,l,clear,c で画像の表示位置とテキストの回りこみを指定します。省略時は left が指定されたとみなします。</p>
+<ul class="list2"><li>right,r − 画像を右寄せで表示します。</li>
+<li>left,l − 画像を右寄せで表示します。</li>
+<li>clear,c − テキストの回りこみを解除します。内部的には right,r,left,l 以外は全てclearが選択されたと見なされます。</li></ul></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_IMG_CLEAR　clear指定時に出力するタグ</li>
+<li>PLUGIN_IMG_USAGE　引数未指定時に表示されるヘルプ</li></ul></dd></dl>
+<!--v66d65c4--></div>
+<div id="nd4e3577" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_7_4">include  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K#nd4e3577" title="nd4e3577"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#include(</strong>
+<span style="color:blue">ページ名[,title|,notitle]</span>
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>記述した位置に指定したページを挿入して、複数のページをあたかも１つのページであるかのように表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>ページ名には挿入するページを指定します。<br />
+第2引数にnotitleを指定すると、ページ名の表示を抑制します。titleはその逆です。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_INCLUDE_MAX　一度にインクルードできるページの最大数</li>
+<li>PLUGIN_INCLUDE_WITH_TITLE　title,notitle を未指定時に挿入時にページ名を表示するか・しないか</li>
+<li>PLUGIN_INCLUDE_USAGE　引数未指定時に表示されるヘルプ</li></ul></dd></dl>
+<!--nd4e3577--></div>
+<div id="a7f1d129" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_7_5">includesubmenu  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K#a7f1d129" title="a7f1d129"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#includesubmenu(</strong>
+[<span style="color:blue">showpagename</span>]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>現在表示中のページによって、<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>に表示する内容を切り替える為に使用します。</p>
+<p>表示中のページの下階層の<span class="noexists">SubMenu<a href="/pack2011/modules/xpwiki/?cmd=edit&amp;page=SubMenu&amp;refer=PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K" class="pagelink" title="SubMenu の編集"><img src="/pack2011/modules/xpwiki/image/paraedit.png" alt="編集" height="9" width="9" /></a></span>か、同階層にある<span class="noexists">SubMenu<a href="/pack2011/modules/xpwiki/?cmd=edit&amp;page=SubMenu&amp;refer=PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K" class="pagelink" title="SubMenu の編集"><img src="/pack2011/modules/xpwiki/image/paraedit.png" alt="編集" height="9" width="9" /></a></span>ページを挿入表示するプラグインです。</p></dd>
+<dt>引数</dt>
+<dd><p>showpagename を指定すると、挿入表示するページのページ名を表示します。省略時はページ名を非表示とします。</p></dd></dl>
+<!--a7f1d129--></div>
+<div id="q51c8898" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_7_6">insert  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K#q51c8898" title="q51c8898"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>（コマンド）</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#insert</strong></dd>
+<dt>概要</dt>
+<dd><p>記述した位置に複数行入力欄とボタンを表示します。</p>
+<p>ボタンを押下すると入力欄に入力した内容をページに挿入します。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>INSERT_COLS　編集欄の表示幅</li>
+<li>INSERT_ROWS　編集欄の表示行数</li>
+<li>INSERT_INS　入力内容を入力欄の前後どちらに挿入するか</li></ul></dd></dl>
+<!--q51c8898--></div>
+<div id="k3075466" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_7_7">interwiki  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FH-K#k3075466" title="k3075466"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?cmd=interwiki</strong>
+<span style="color:blue">&amp;page=<a href="/pack2011/modules/xpwiki/?InterWiki" title="InterWiki (2184d)" class="pagelink">InterWiki</a>名</span></dd>
+<dt>概要</dt>
+<dd><p><a href="/pack2011/modules/xpwiki/?InterWiki" title="InterWiki (2184d)" class="pagelink">InterWiki</a>を記述した際に<a href="/pack2011/modules/xpwiki/?PukiWiki" title="PukiWiki (2184d)" class="pagelink">PukiWiki</a>が内部的に呼び出します。使用者が意識して使用する機会はありません。</p></dd>
+<dt>引数</dt>
+<dd><p><a href="/pack2011/modules/xpwiki/?InterWiki" title="InterWiki (2184d)" class="pagelink">InterWiki</a>名にはジャンプ先を<a href="/pack2011/modules/xpwiki/?InterWiki" title="InterWiki (2184d)" class="pagelink">InterWiki</a>形式で指定します。<a href="/pack2011/modules/xpwiki/?InterWiki" title="InterWiki (2184d)" class="pagelink">InterWiki</a>名はエンコードされている必要があります。</p></dd></dl>
+
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+<!--k3075466--></div>
+
+";s:4:"root";a:10:{s:12:"foot_explain";a:0:{}s:13:"head_pre_tags";a:0:{}s:9:"head_tags";a:0:{}s:7:"related";a:3:{s:7:"MenuBar";i:1100902204;s:9:"InterWiki";i:1136784511;s:8:"PukiWiki";i:1136771431;}s:7:"runmode";N;s:13:"content_title";s:1:"H";s:7:"nonflag";a:1:{s:7:"related";b:1;}s:15:"replaces_finish";a:0:{}s:18:"pagecache_profiles";s:0:"";s:16:"meta_description";s:342:"種別ブロック型プラグイン重要度★★☆☆☆書式#hr概要文中に水平線を挿入します。備考段落やリスト、テーブル内など、通常の水平線書式(----)ではブロックを抜けてしまう個所で水平線を挿入するために用います。リスト内など左右マージンが設定され";}s:4:"cont";a:1:{s:12:"SKIN_CHANGER";i:1;}s:7:"globals";a:0:{}}

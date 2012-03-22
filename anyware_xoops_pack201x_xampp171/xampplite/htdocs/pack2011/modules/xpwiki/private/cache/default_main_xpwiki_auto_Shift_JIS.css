@@ -1,0 +1,1217 @@
+@charset "Shift_JIS";
+
+div.xpwiki_xpwiki {
+	background-color:inherit;
+	width:100%;
+}
+
+div.xpwiki_xpwiki h1,
+div.xpwiki_xpwiki h2,
+div.xpwiki_xpwiki h3,
+div.xpwiki_xpwiki h4,
+div.xpwiki_xpwiki h5,
+div.xpwiki_xpwiki h6,
+div.xpwiki_xpwiki pre,
+div.xpwiki_xpwiki dl,
+div.xpwiki_xpwiki p,
+div.xpwiki_xpwiki div,
+div.xpwiki_xpwiki blockquote { line-height:150%; }
+
+div.xpwiki_xpwiki div,
+div.xpwiki_xpwiki p {
+	font-size: 100%;
+	border: medium none;
+	margin: 0;
+	padding: 0;
+}
+
+div.xpwiki_xpwiki p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+div.xpwiki_xpwiki > p,
+div.xpwiki_xpwiki div > p {
+	margin-left: 1em;
+}
+
+
+div.xpwiki_xpwiki blockquote {
+	border: 1px dotted gray;
+	margin-left: 32px;
+}
+
+div.xpwiki_xpwiki .maxwidth_none img {
+	max-width: none;
+}
+
+/* for render mode on XOOPS */
+div.xpwiki_xpwiki div.xoopsQuote blockquote {
+	border: none;
+	margin: 0;
+	padding-left: 1em;
+}
+
+div.xpwiki_xpwiki div.xoopsQuote p {
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+div.xpwiki_xpwiki blockquote > p:first-child {
+	margin-top: 0;
+}
+
+div.xpwiki_xpwiki div.paragraph {
+	margin: 1em;
+}
+
+div.xpwiki_xpwiki table { width: auto; }
+
+div.xpwiki_xpwiki,
+div.xpwiki_xpwiki td {
+	color:black;
+	/*background-color:white;*/
+	font-size:100%;
+	font-family:verdana, arial, helvetica, Sans-Serif;
+}
+
+div.xpwiki_xpwiki a:link {
+	color:#215dc6;
+	background-color:inherit;
+	text-decoration:none;
+	font-weight: inherit;
+}
+
+div.xpwiki_xpwiki a:active {
+	color:#215dc6;
+	background-color:#CCDDEE;
+	text-decoration:none;
+	font-weight: inherit;
+}
+
+div.xpwiki_xpwiki a:visited {
+	color:#a63d21;
+	background-color:inherit;
+	text-decoration:none;
+	font-weight: inherit;
+}
+
+div.xpwiki_xpwiki a:hover {
+	color:#215dc6;
+	background-color:#CCDDEE;
+	text-decoration:underline;
+	font-weight: inherit;
+}
+
+div.xpwiki_xpwiki a.ext {
+	border-bottom: 1px blue dotted;
+	background-image: url(./loader.php?src=ext.png);
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	padding-left: 12px;
+}
+
+div.xpwiki_xpwiki a.extWithFavicon {
+	border-bottom: 1px blue dotted;
+}
+
+div.xpwiki_xpwiki a.pagelink {
+	/*border-bottom: 1px silver dotted;*/
+}
+div.xpwiki_xpwiki a.pagelink_popup {
+	/*border-bottom: 1px silver dotted;*/
+	cursor: help;
+}
+div.xpwiki_xpwiki a.autolink {
+	/*border-bottom: 1px silver dotted;*/
+}
+div.xpwiki_xpwiki a.autolink_popup {
+	/*border-bottom: 1px silver dotted;*/
+	cursor: help;
+}
+
+div.xpwiki_xpwiki a.ext_autolink {
+	border-bottom: 1px silver dotted;
+	color: inherit;
+	font-weight: inherit;
+}
+
+div.xpwiki_xpwiki .nowrap {
+	white-space: nowrap;
+}
+
+div.xpwiki_xpwiki div.level1 {}
+div.xpwiki_xpwiki div.level2 {}
+div.xpwiki_xpwiki div.level3 {
+	margin-left: 1em;
+}
+div.xpwiki_xpwiki div.level4 {
+	margin-left: 2em;
+}
+div.xpwiki_xpwiki div.level3 div.level4 {
+	margin-left: 1em;
+}
+div.xpwiki_xpwiki div.level5 {
+	margin-left: 3em;
+}
+div.xpwiki_xpwiki div.level3 div.level5 {
+	margin-left: 2em;
+}
+div.xpwiki_xpwiki div.level4 div.level5 {
+	margin-left: 1em;
+}
+div.xpwiki_xpwiki div.level6 {
+	margin-left: 4em;
+}
+div.xpwiki_xpwiki div.level3 div.level6 {
+	margin-left: 3em;
+}
+div.xpwiki_xpwiki div.level4 div.level6 {
+	margin-left: 2em;
+}
+div.xpwiki_xpwiki div.level5 div.level6 {
+	margin-left: 1em;
+}
+
+div.xpwiki_xpwiki_mobile div.level1 {}
+div.xpwiki_xpwiki_mobile div.level2 {}
+div.xpwiki_xpwiki_mobile div.level3 {
+	margin-left: 0em;
+}
+div.xpwiki_xpwiki_mobile div.level4 {
+	margin-left: .2em;
+}
+div.xpwiki_xpwiki_mobile div.level3 div.level4 {
+	margin-left: 0em;
+}
+div.xpwiki_xpwiki_mobile div.level5 {
+	margin-left: .4em;
+}
+div.xpwiki_xpwiki_mobile div.level3 div.level5 {
+	margin-left: .2em;
+}
+div.xpwiki_xpwiki_mobile div.level4 div.level5 {
+	margin-left: 0em;
+}
+div.xpwiki_xpwiki_mobile div.level6 {
+	margin-left: .6em;
+}
+div.xpwiki_xpwiki_mobile div.level3 div.level6 {
+	margin-left: .4em;
+}
+div.xpwiki_xpwiki_mobile div.level4 div.level6 {
+	margin-left: 0em;
+}
+div.xpwiki_xpwiki_mobile div.level5 div.level6 {
+	margin-left: 0em;
+}
+
+div.xpwiki_xpwiki .highlight {
+	background-color: #ffe4e1;
+}
+
+div.xpwiki_xpwiki h1,
+div.xpwiki_xpwiki h2 {
+	font-family:verdana, arial, helvetica, Sans-Serif;
+	color:inherit;
+	/*background-color:lightgrey;*/
+	background: #F5F5F5 url(./loader.php?src=shadow.png) repeat-x scroll center bottom;
+	border-top:     none;
+	border-bottom:  none;
+	border-left:   20px solid lightgrey;
+	border-right: none;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	padding: .3em .3em .5em .5em;
+	margin:1em 0px 1.5em 0px;
+	text-align: left;
+	clear:none !important;
+}
+* html div.xpwiki_xpwiki h1,
+* html div.xpwiki_xpwiki h2 {
+	/* for < IE6 */
+	background-image: url(./loader.php?src=shadow.gif);
+}
+
+div.xpwiki_xpwiki h3 {
+	font-family:verdana, arial, helvetica, Sans-Serif;
+	border-top:     none;
+	border-bottom:  2px dotted lightgrey;
+	border-left:   15px solid lightgrey;
+	border-right: none;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	color:inherit;
+	/*background-color:#FFFFFF;*/
+	padding: .3em .3em .1em .5em;
+	margin:1em 0px 1em 0px;
+	text-align: left;
+}
+div.xpwiki_xpwiki h4 {
+	font-family:verdana, arial, helvetica, Sans-Serif;
+	border-top:     none;
+	border-bottom:  1px dotted lightgrey;
+	border-left:   10px solid lightgrey;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color:inherit;
+	background-color:#FFFFFF;
+	padding: .3em .3em .1em .5em;
+	margin:1em 0px 1em 0px;
+	text-align: left;
+}
+div.xpwiki_xpwiki h5,
+div.xpwiki_xpwiki h6 {
+	font-size: 100%;
+	font-family:verdana, arial, helvetica, Sans-Serif;
+	color:inherit;
+	/*background-color:#DDEEFF;*/
+ 	padding: .3em .3em .1em .5em;
+	border-top:     none;
+	border-bottom:  1px dotted lightgrey;
+	border-left:   5px solid lightgrey;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+ 	margin:.5em 0px .5em 0px;
+	text-align: left;
+}
+
+div.xpwiki_xpwiki h1.title {
+	font-size: 30px;
+	font-weight:bold;
+	background-color:transparent;
+	background-image: none;
+	padding: 0px 0px 0px 0px;
+	border: none;
+	margin: 0px 0px 15px 0px;
+}
+
+div.xpwiki_xpwiki h1.none,
+div.xpwiki_xpwiki h2.none,
+div.xpwiki_xpwiki h3.none,
+div.xpwiki_xpwiki h4.none,
+div.xpwiki_xpwiki h5.none,
+div.xpwiki_xpwiki h6.none {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+div.xpwiki_xpwiki dl {
+	margin-left:1em;
+}
+
+div.xpwiki_xpwiki dt {
+	font-weight:bold;
+	margin-top:1em;
+}
+
+div.xpwiki_xpwiki dd {
+	margin-left:1em;
+}
+
+div.xpwiki_xpwiki sub {
+	vertical-align: text-bottom;
+	font-size: 70%;
+	line-height: 100%;
+}
+
+div.xpwiki_xpwiki sup {
+	vertical-align: text-top;
+	font-size: 70%;
+	line-height: 100%;
+}
+
+/* contents */
+div.xpwiki_xpwiki div.contents {
+	float: right;
+	width: 30%;
+	font-size: 80%;
+	border: none;
+	margin: 0px 0px 5px 20px;
+	padding: 5px;
+}
+div.xpwiki_xpwiki_mobile div.contents {
+	float: none;
+	width: auto;
+}
+div.xpwiki_xpwiki div.contents span.toc_open,
+div.xpwiki_xpwiki div.contents span.toc_close {
+	border: 0.4em solid #F5F5F5;
+	display: block;
+	float: right;
+	margin: 0.4em 3px 0 0;
+}
+div.xpwiki_xpwiki div.contents span.toc_open {
+	border-top: 0.4em solid #0000CD;
+	margin-top: 0.4em;
+}
+div.xpwiki_xpwiki div.contents span.toc_close {
+	border-bottom: 0.4em solid #0000CD;
+	margin-top: 0px;
+}
+div.xpwiki_xpwiki div.contents span.toc_open span,
+div.xpwiki_xpwiki div.contents span.toc_close span {
+	display: none;
+}
+div.xpwiki_xpwiki div.toc_header {
+	font-size: 120%;
+	font-weight: bold;
+	background-color: #F5F5F5;
+	border: gray 1px solid;
+	padding: 2px 2px 2px 5px;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+div.xpwiki_xpwiki div.toc_body {
+	font-weight: normal;
+	background-color: #FDFDFF;
+	border: gray 1px solid;
+	border-top: none;
+	padding: 0.4em 0.2em 0 0.4em;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+div.xpwiki_xpwiki div.contents ul,
+div.xpwiki_xpwiki div.contents ol {
+	margin-left: 0.5em;
+	padding-left: 0.5em;
+}
+
+div.xpwiki_xpwiki div.contents ul.list1,
+div.xpwiki_xpwiki div.contents ol.list1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+body.popup_body_default div.xpwiki_xpwiki div.contents {
+	min-width: 30%;
+	width: auto;
+}
+
+/* Pre base */
+div.xpwiki_xpwiki div.pre {
+	width: auto;
+	overflow: auto;
+	margin: 10px;
+}
+
+div.xpwiki_xpwiki pre {
+	border-top:#DDDDEE 1px solid;
+	border-bottom:#888899 1px solid;
+	border-left:#DDDDEE 1px solid;
+	border-right:#888899 1px solid;
+	padding:.5em;
+	margin-left:1em;
+	margin-right:2em;
+	color:black;
+	background-color:#F0F8FF;
+	width: auto;
+
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: pre-wrap;      /* CSS3 */
+	word-wrap: break-word;      /* IE 5.5+ */
+}
+
+/* For renderer on XOOPS */
+div.xpwiki_xpwiki div.xoopsCode pre {
+	border: none;
+	padding: 0px;
+	margin: 3px;
+	color:black;
+	background-color:transparent;
+
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: pre-wrap;      /* CSS3 */
+	word-wrap: break-word;      /* IE 5.5+ */
+}
+
+div.xpwiki_xpwiki img {
+	border:none;
+	vertical-align:middle;
+}
+
+div.xpwiki_xpwiki form {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.xpwiki_xpwiki form label {
+	cursor: pointer;
+}
+
+div.xpwiki_xpwiki em { font-style:italic; }
+
+div.xpwiki_xpwiki strong { font-weight:bold; }
+
+div.xpwiki_xpwiki thead td.style_td,
+div.xpwiki_xpwiki tfoot td.style_td {
+	color:inherit;
+	background-color:#D0D8E0;
+}
+div.xpwiki_xpwiki thead th.style_th,
+div.xpwiki_xpwiki tfoot th.style_th {
+	color:#000;
+	background-color:#E0E8F0;
+}
+div.xpwiki_xpwiki .style_table {
+	padding:0px;
+	border:0px;
+	margin: 10px auto;
+	text-align:left;
+	color:inherit;
+	background-color:#ccd5dd;
+}
+div.xpwiki_xpwiki .style_th {
+	padding:5px;
+	margin:1px;
+	text-align:center;
+	color:inherit;
+	background-color:#EEEEEE;
+}
+div.xpwiki_xpwiki .style_td {
+	padding:5px;
+	margin:1px;
+	color:inherit;
+	background-color:#FDFDFF;
+}
+
+div.xpwiki_xpwiki ul,
+div.xpwiki_xpwiki ol {
+	margin-left: 1em;
+	padding-left: 1em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height:150%;
+
+	list-style-type:inherit;
+	list-style-position:outside;
+	list-style-image:none;
+	marker-offset:auto;
+	color: inherit;
+}
+
+div.xpwiki_xpwiki ul.list1,
+div.xpwiki_xpwiki ol.list1 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 1.5em;
+	padding-left: 1.5em;
+}
+
+div.xpwiki_xpwiki li {
+	list-style-type:inherit;
+	list-style-position:outside;
+	list-style-image:none;
+	marker-offset:auto;
+	color: inherit;
+	margin: 0.3em 0;
+}
+
+div.xpwiki_xpwiki li.list_none {
+	list-style: none none inside !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	display: inline;
+	/*height: 0px;
+	width: 0px;*/
+}
+
+div.xpwiki_xpwiki ul.list1 li { list-style-type:disc; }
+div.xpwiki_xpwiki ol.list1 li { list-style-type:decimal; }
+
+div.xpwiki_xpwiki ul.list2 li { list-style-type:circle; }
+div.xpwiki_xpwiki ol.list2 li { list-style-type:lower-roman; }
+
+div.xpwiki_xpwiki ul.list3 li { list-style-type:square; }
+div.xpwiki_xpwiki ol.list3 li { list-style-type:lower-alpha; }
+
+div.xpwiki_xpwiki ul.list4 li { list-style-type:disc; }
+div.xpwiki_xpwiki ol.list4 li { list-style-type:decimal; }
+
+div.xpwiki_xpwiki ul.list5 li { list-style-type:circle; }
+div.xpwiki_xpwiki ol.list5 li { list-style-type:lower-roman; }
+
+div.xpwiki_xpwiki ul.list6 li { list-style-type:square; }
+div.xpwiki_xpwiki ol.list6 li { list-style-type:lower-alpha; }
+
+div.xpwiki_xpwiki ul.list7 li { list-style-type:disc; }
+div.xpwiki_xpwiki ol.list7 li { list-style-type:decimal; }
+
+div.xpwiki_xpwiki ul.list8 li { list-style-type:circle; }
+div.xpwiki_xpwiki ol.list8 li { list-style-type:lower-roman; }
+
+div.xpwiki_xpwiki ul.list9 li { list-style-type:square; }
+div.xpwiki_xpwiki ol.list9 li { list-style-type:lower-alpha; }
+
+div.xpwiki_xpwiki li.pcmt {
+	list-style-type: none !important;
+}
+
+div.xpwiki_xpwiki div.ie5 { text-align:center; }
+
+div.xpwiki_xpwiki span.noexists {
+	color:inherit;
+	background-color:#FFFACC;
+}
+
+div.xpwiki_xpwiki .small { font-size:80%; }
+
+div.xpwiki_xpwiki .modest {
+	font-size: 7pt;
+	color: gray;
+}
+
+div.xpwiki_xpwiki .super_index {
+	color:#DD3333;
+	background-color:inherit;
+	font-weight:bold;
+	font-size:60%;
+	vertical-align:super;
+}
+
+div.xpwiki_xpwiki a.note_super {
+	color:#DD3333;
+	background-color:inherit;
+	font-weight:bold;
+	font-size:60%;
+	vertical-align:super;
+}
+
+div.xpwiki_xpwiki div.jumpmenu {
+	font-size: 60%;
+	float: right;
+}
+
+div.xpwiki_xpwiki hr.full_hr {
+	border-style:ridge;
+	border-color:#333333;
+	border-width:1px 0px;
+}
+div.xpwiki_xpwiki hr.note_hr {
+	/*width:90%;
+	text-align:center;*/
+	margin:1em auto 0em auto;
+	border-width: 1px 0px 0px 0px;
+	border-style: dotted;
+	border-color: #333333;
+	height: 1px;
+}
+
+div.xpwiki_xpwiki span.size1 {
+	font-size:xx-small;
+	line-height:150%;
+	text-indent:0px;
+	display:inline;
+}
+div.xpwiki_xpwiki span.size2 {
+	font-size:x-small;
+	line-height:150%;
+	text-indent:0px;
+	display:inline;
+}
+div.xpwiki_xpwiki span.size3 {
+	font-size:small;
+	line-height:150%;
+	text-indent:0px;
+	display:inline;
+}
+div.xpwiki_xpwiki span.size4 {
+	font-size:medium;
+	line-height:150%;
+	text-indent:0px;
+	display:inline;
+}
+div.xpwiki_xpwiki span.size5 {
+	font-size:large;
+	line-height:150%;
+	text-indent:0px;
+	display:inline;
+}
+div.xpwiki_xpwiki span.size6 {
+	font-size:x-large;
+	line-height:150%;
+	text-indent:0px;
+	display:inline;
+}
+div.xpwiki_xpwiki span.size7 {
+	font-size:xx-large;
+	line-height:150%;
+	text-indent:0px;
+	display:inline;
+}
+
+div.xpwiki_xpwiki div.commentbody {
+	margin-left:30px;
+	margin-right:10px;
+}
+
+div.xpwiki_xpwiki div.commentbody h2 {
+	font-size: 13pt;
+	border-top:     0px solid lightgrey;
+	border-bottom:  2px dotted lightgrey;
+	border-left:   15px solid lightgrey;
+	border-right: none;
+	background-image: none;
+	background-color: transparent;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	padding: .3em .3em .1em .5em;
+	margin:0px 0px .5em 0px;
+}
+
+div.xpwiki_xpwiki div.commentbody textarea {
+	height: 7em;
+	line-height: 1.5;
+}
+
+div.xpwiki_xpwiki div.system_notification {
+	margin-left:30px;
+	margin-right:10px;
+}
+
+div.xpwiki_xpwiki div.system_notification h4 {
+	/*
+	background-color: transparent;
+	border: none;
+	*/
+}
+
+div.system_notification table {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* html.php/catbody() */
+div.xpwiki_xpwiki strong.word0 {
+	background-color:#FFFFB3;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word1 {
+	background-color:#D1FFB3;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word2 {
+	background-color:#B3FFC2;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word3 {
+	background-color:#B3FFF0;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word4 {
+	background-color:#B3E1FF;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word5 {
+	background-color:#B3B3FF;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word6 {
+	background-color:#E1B3FF;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word7 {
+	background-color:#FFB3F0;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word8 {
+	background-color:#FFB3C2;
+	color:black;
+}
+div.xpwiki_xpwiki strong.word9 {
+	background-color:#FFD1B3;
+	color:black;
+}
+div.xpwiki_xpwiki div.commentbody table {
+	width: 100%;
+}
+div.xpwiki_xpwiki div.context {
+	background-color: #FFFFEE;
+	border: 1px dotted blue;
+	font-size: 90%;
+	margin: 5px 5px 5px 25px;
+	padding: 3px 10px;
+	text-align: left;
+}
+
+/* html.php/edit_form() */
+div.xpwiki_xpwiki .edit_form {
+	clear: both;
+	/*overflow-y: auto;*/
+}
+div.xpwiki_xpwiki .edit_form textarea {
+	font-size: 100%;
+	width: 98%;
+	max-height: 350px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5;
+}
+div.xpwiki_xpwiki .edit_form_ajax {
+	border: 1px gray solid;
+	padding: 5px;
+	overflow-y: auto;
+}
+div.xpwiki_xpwiki .edit_form_ajax textarea {
+	font-size: 100%;
+	width: 98%;
+	max-height: 250px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.5;
+}
+div.xpwiki_xpwiki div.edit_form_cancel {
+	float: left;
+}
+div.xpwiki_xpwiki span.edit_form_title {
+	font-weight: bold;
+}
+div.xpwiki_xpwiki span.edit_form_note {
+	font-weight: normal;
+}
+/* pukiwiki.skin.php */
+div.xpwiki_xpwiki div.header {
+	font-weight: normal;
+	padding:0px;
+	margin:0px;
+	background-color: transparent;
+}
+div.xpwiki_xpwiki div.header a {
+	font-weight: normal;
+}
+
+div.xpwiki_xpwiki div.navigator {
+	clear:both;
+	padding:0px 0px 0px 0px;
+	margin:0px;
+	font-size:90%;
+}
+
+div.xpwiki_xpwiki div.navigator_wiki {
+	width: auto;
+	float: right;
+	/*padding-top: 15px;*/
+	padding-left: 1em;
+}
+
+div.xpwiki_xpwiki div.navigator_page {
+	text-align: left;
+	font-size: 12px;
+	color: gray;
+	background: #F5F5F5 url(./loader.php?src=shadow.png) repeat-x scroll center bottom;
+	padding: 2px 10px;
+	margin: 0 0 8px 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+* html div.xpwiki_xpwiki div.navigator_page {
+	/* for < IE6 */
+	background-image: url(./loader.php?src=shadow.gif);
+}
+
+div.xpwiki_xpwiki div.navigator_page a {
+	background-color: transparent;
+}
+
+div.xpwiki_xpwiki div.navigator_page span.noexists {
+	background-color: transparent;
+}
+
+div.xpwiki_xpwiki div.navigator_path {
+	font-size: 85%;
+}
+
+div.xpwiki_xpwiki div.navigator_info {
+	float: right;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+div.xpwiki_xpwiki div.navigator_hr {
+	clear: both;
+	margin: 0 0 2em 0;
+	height: 15px;
+	background: #FFF url(./loader.php?src=buttonbg.gif) repeat-x scroll center bottom;
+	overflow: hidden;
+}
+
+div.xpwiki_xpwiki div.navigator_hr hr {
+	position: relative;
+	top: 7px;
+	border: none;
+	height: 0;
+	margin: 0;
+	padding: 0;
+	color: transparent;
+}
+
+div.xpwiki_xpwiki span.button {
+	color: black;
+	font-size: 10pt;
+	font-weight: normal;
+	line-height: 2.0;
+	margin-top: 2px;
+	margin-right: 1px;
+	padding: 1px 5px;
+	border: 1px solid gray;
+	cursor: pointer;
+	white-space: nowrap;
+	background: #F5F5F5 url(./loader.php?src=buttonbg.gif) repeat-x scroll center bottom;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+div.xpwiki_xpwiki span.button:hover {
+	padding: 0px 4px;
+	border: 2px solid orange;
+	border-top-color: gold;
+	border-left-color: gold;
+}
+div.xpwiki_xpwiki span.button a {
+	color: black;
+	font-weight: normal;
+	background-color: transparent;
+}
+div.xpwiki_xpwiki_mobile span.button {
+	padding: 5px 10px;
+}
+div.xpwiki_xpwiki_mobile span.button:hover {
+	padding: 4px 9px;
+}
+
+div.xpwiki_xpwiki td.menubar {
+	width:10em;
+	vertical-align:top;
+}
+
+div.xpwiki_xpwiki div.menubar {
+	/*width:9em;*/
+	padding:0px;
+	margin:4px;
+	word-break:break-all;
+	font-size:90%;
+	overflow:hidden;
+}
+
+div.xpwiki_xpwiki div.menubar ul {
+	margin:0px 0px 0px .5em;
+	padding:0px 0px 0px .5em;
+}
+
+div.xpwiki_xpwiki div.menubar ul li { line-height:110%; }
+
+div.xpwiki_xpwiki div.menubar h4 { font-size:110%; }
+
+div.xpwiki_xpwiki div.body {
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+
+div.xpwiki_xpwiki div.footnotes {
+	clear:both;
+	padding:0px;
+	margin:0px;
+}
+
+div.xpwiki_xpwiki div.footnote_category {
+	margin-top: 0.5em;
+	margin-bottom: 0.3em;
+	font-size: 85%;
+}
+
+div.xpwiki_xpwiki div.footnote_category_nobr {
+	display: inline;
+	width: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 1em;
+	margin-right: 0.5em;
+}
+
+div.xpwiki_xpwiki div.attach {
+	clear:both;
+	padding:0px;
+	margin:0px;
+	font-size:90%;
+}
+
+div.xpwiki_xpwiki div.toolbar {
+	clear:both;
+	padding:0px;
+	margin:0px;
+	text-align:right;
+}
+
+div.xpwiki_xpwiki div.lastmodified {
+	font-size:80%;
+	padding:0px;
+	margin:0px;
+}
+
+div.xpwiki_xpwiki div.related {
+	font-size:80%;
+	padding:0px;
+	margin:16px 0px 0px 0px;
+}
+
+div.xpwiki_xpwiki div.footer {
+	text-align: right;
+	font-size: x-small;
+	padding:0px;
+	margin:10px 10px 0px 0px;
+	clear: both;
+}
+
+div.xpwiki_xpwiki table.footer_pginfo {
+	border: 1px solid gray;
+	width: auto;
+	max-width: 50%;
+	margin: 1em 0.5em 1em 1em;
+	float: right;
+}
+
+div.xpwiki_xpwiki table.footer_pginfo th,
+div.xpwiki_xpwiki table.footer_pginfo td {
+	font-size: x-small;
+	padding: 0;
+}
+
+div.xpwiki_xpwiki div.banner {
+	float:right;
+	margin-top:24px;
+}
+
+div.xpwiki_xpwiki div.preview {
+	color:inherit;
+	background-color:#F5F8FF;
+	overflow: auto;
+	max-height: 300px;
+}
+
+div.xpwiki_xpwiki div.ajax_preview {
+	overflow: auto;
+	max-height: 250px;
+	border: 1px gray solid;
+}
+
+div.xpwiki_xpwiki img.logo {
+	float:left;
+	margin-right:20px;
+}
+
+/* aname.inc.php */
+div.xpwiki_xpwiki .anchor {}
+div.xpwiki_xpwiki .anchor_super {
+	font-size:xx-small;
+	vertical-align:super;
+}
+
+/* backup.inc.php */
+div.xpwiki_xpwiki ul li.edit_summary {
+	list-style-type: none;
+	margin: 0;
+	color: green;
+}
+
+/* br.inc.php */
+div.xpwiki_xpwiki br.spacer {}
+
+/* calendar_viewer.inc.php */
+div.xpwiki_xpwiki div.calendar_viewer {
+	color:inherit;
+	background-color:inherit;
+	margin-top:20px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+div.xpwiki_xpwiki span.calendar_viewer_left {
+	color:inherit;
+	background-color:inherit;
+	float:left;
+}
+div.xpwiki_xpwiki span.calendar_viewer_right {
+	color:inherit;
+	background-color:inherit;
+	float:right;
+}
+
+/* clear.inc.php */
+div.xpwiki_xpwiki .clear {
+	margin:0px;
+	clear:both;
+}
+div.xpwiki_xpwiki .clear_left {
+	margin:0px;
+	clear:left;
+}
+div.xpwiki_xpwiki .clear_right {
+	margin:0px;
+	clear:right;
+}
+
+/* counter.inc.php */
+div.xpwiki_xpwiki div.counter { font-size:70%; }
+
+/* diff.inc.php */
+div.xpwiki_xpwiki span.diff_added {
+	color:blue;
+	background-color:inherit;
+}
+
+div.xpwiki_xpwiki span.diff_removed {
+	color:red;
+	background-color:inherit;
+}
+
+/* hr.inc.php */
+div.xpwiki_xpwiki hr.short_line {
+	text-align:center;
+	width:80%;
+	border-style:solid;
+	border-color:#333333;
+	border-width:1px 0px;
+}
+
+/* include.inc.php */
+div.xpwiki_xpwiki h5.side_label { text-align:center; }
+
+/* navi.inc.php */
+div.xpwiki_xpwiki ul.navi {
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+div.xpwiki_xpwiki li.navi_none {
+	display:inline;
+	float:none;
+}
+div.xpwiki_xpwiki li.navi_left {
+	display:inline;
+	float:left;
+	text-align:left;
+}
+div.xpwiki_xpwiki li.navi_right {
+	display:inline;
+	float:right;
+	text-align:right;
+}
+
+/* new.inc.php */
+div.xpwiki_xpwiki span.comment_date { font-size:x-small; }
+div.xpwiki_xpwiki span.new1 {
+	color:red;
+	background-color:transparent;
+	font-size:x-small;
+}
+div.xpwiki_xpwiki span.new5 {
+	color:green;
+	background-color:transparent;
+	font-size:xx-small;
+}
+
+/* popular.inc.php */
+div.xpwiki_xpwiki span.counter { font-size:70%; }
+div.xpwiki_xpwiki ul.popular_list {
+/*
+	padding:0px;
+	border:0px;
+	margin:0px 0px 0px 1em;
+	word-wrap:break-word;
+	word-break:break-all;
+*/
+}
+
+/* recent.inc.php,showrss.inc.php */
+div.xpwiki_xpwiki ul.recent_list {
+/*
+	padding:0px;
+	border:0px;
+	margin:0px 0px 0px 1em;
+	word-wrap:break-word;
+	word-break:break-all;
+*/
+}
+
+/* ref.inc.php */
+div.xpwiki_xpwiki .img_margin {
+	margin: 10px;
+}
+
+div.xpwiki_xpwiki_mobile img.img_margin {
+	height: auto;
+}
+
+div.xpwiki_xpwiki div.ref_use_caption {
+	margin-bottom: 0px;
+}
+
+div.xpwiki_xpwiki div.ref_caption {
+	text-align:center;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+div.xpwiki_xpwiki span.ref_caption {
+	text-align: center;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.xpwiki_xpwiki span.ref_block {
+	text-align: center;
+	display: inline-block;
+	width: auto;
+	margin-bottom: 10px;
+}
+
+div.xpwiki_xpwiki span.ref_use_caption {
+	text-align: center;
+	display: inline-block;
+	width: auto;
+	margin-bottom: 10px;
+}
+
+
+/* ruby.inc.php */
+div.xpwiki_xpwiki rt, div.xpwiki_xpwiki rp {
+	font-size: 65%;
+	font-weight: normal;
+}
+
+/* vote.inc.php */
+div.xpwiki_xpwiki td.vote_label {
+	color:inherit;
+	background-color:#FFCCCC;
+}
+div.xpwiki_xpwiki td.vote_td1 {
+	color:inherit;
+	background-color:#DDE5FF;
+}
+div.xpwiki_xpwiki td.vote_td2 {
+	color:inherit;
+	background-color:#EEF5FF;
+}
+

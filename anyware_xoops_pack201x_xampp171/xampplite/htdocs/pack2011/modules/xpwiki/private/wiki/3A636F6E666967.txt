@@ -1,0 +1,3 @@
+#freeze
+#pginfo(1		admin	1	none	none	3	all	all	1		admin	1		)
+#ls2

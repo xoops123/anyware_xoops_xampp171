@@ -1,0 +1,7 @@
+<div><input checked type="checkbox" id="<{$element.id}>_switch_bbcode" onclick="if(this.checked){document.getElementById('<{$element.name}>_bbcode_buttons_pre').style.display='block';document.getElementById('<{$element.name}>_bbcode_buttons_post').style.display='block';document.getElementById('<{$element.id}>_myckeditorOn').value='CKEeditorON';<{$element.id }>_myckeditor_remove();}else{document.getElementById('<{$element.name}>_bbcode_buttons_pre').style.display='none';document.getElementById('<{$element.name}>_bbcode_buttons_post').style.display='none';}" />
+<label for="<{$element.id}>_switch_bbcode">BBCode Toolbar</label>
+<{if $element.myckeditor }>
+<input type="button" class="formButton" value="CKEeditorON" name="<{$element.id}>_myckeditorOn" id="<{$element.id}>_myckeditorOn" onclick="if(this.value=='CKEeditorON'){this.value='CKEeditorOFF';<{$element.id }>_myckeditor_exec();document.getElementById('<{$element.id}>_switch_bbcode').checked=false;document.getElementById('<{$element.name}>_bbcode_buttons_pre').style.display='none';document.getElementById('<{$element.name}>_bbcode_buttons_post').style.display='none';}else{this.value='CKEeditorON';<{$element.id}>_myckeditor_remove();}"/>
+<{/if}>
+</div>
+<{myckeditordhtmltarea name="`$element.name`" id="`$element.id`" cols=$element.cols rows="`$element.rows`" value="`$element.value`" pre_style="display:blocke;" post_style="display:block;"}>

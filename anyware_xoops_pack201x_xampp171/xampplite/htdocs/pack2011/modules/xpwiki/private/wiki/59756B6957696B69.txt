@@ -1,0 +1,4 @@
+#pginfo(1		admin	3	all	all	3	all	all	1		admin	1		)
+最初に[[PukiWiki]]を開発する際に参考にした、Perlで書かれたスクリプトです。
+
+[[結城浩さんのページ:http://www.hyuki.com/]]

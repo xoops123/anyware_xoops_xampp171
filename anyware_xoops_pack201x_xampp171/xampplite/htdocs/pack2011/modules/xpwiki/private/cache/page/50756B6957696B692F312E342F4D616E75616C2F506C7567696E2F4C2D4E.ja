@@ -1,0 +1,458 @@
+a:4:{s:4:"body";s:35476:"
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+
+
+<!--description ignore-->
+<div class="contents">
+ <div class="toc_header">
+  ページ内コンテンツ
+ </div>
+ <div class="toc_body">
+  <ul class="list1"><li><a href="#o648e077">  L </a>
+<ul class="list2"><li><a href="#icd62a6b"> lastmod </a></li>
+<li><a href="#m5bbd018"> links </a></li>
+<li><a href="#l9a47a57"> list </a></li>
+<li><a href="#u9c3d366"> lookup </a></li>
+<li><a href="#b596a628"> ls </a></li>
+<li><a href="#d2ce34ea"> ls2 </a></li></ul></li>
+<li><a href="#cdfaaa0f">  M </a>
+<ul class="list2"><li><a href="#i89f687e"> map </a></li>
+<li><a href="#wec9aa1f"> md5 </a></li>
+<li><a href="#h2cba975"> memo </a></li>
+<li><a href="#vc24ce14"> menu </a></li></ul></li>
+<li><a href="#ge4daaa6">  N </a>
+<ul class="list2"><li><a href="#yd9441b2"> navi </a></li>
+<li><a href="#meab71a6"> new </a></li>
+<li><a href="#lec55a94"> newpage </a></li>
+<li><a href="#s8c0fa4c"> nofollow </a></li>
+<li><a href="#uebd3c7c"> norelated </a></li></ul></li></ul>
+ </div>
+</div>
+<!--/description ignore-->
+
+<hr class="full_hr" />
+<div id="o648e077" class="level2">
+<h2 id="content_4_0">L  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#o648e077" title="o648e077"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--o648e077--></div>
+<div id="icd62a6b" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_1">lastmod  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#icd62a6b" title="icd62a6b"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>インライン型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>&amp;lastmod(</strong>
+[<span style="color:blue">ページ名</span>]
+<strong>);</strong></p></dd>
+<dt>概要</dt>
+<dd><p>指定したページの最終更新日時を表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>ページ名には最終更新日時を表示したいページ名を指定します。
+省略時は設置したページとみなします。</p></dd></dl>
+<!--icd62a6b--></div>
+<div id="m5bbd018" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_2">links  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#m5bbd018" title="m5bbd018"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆（管理者）</p></dd>
+<dt>書式</dt>
+<dd><strong>?plugin=links</strong></dd>
+<dt>概要</dt>
+<dd><p>ページ間のキャッシュを更新します。通常使用する必要はありません。</p>
+<p>メンテナンス作業などでページが記録されているファイルを直接操作した場合にキャッシュとページの記述内容の整合性がとれなくなるため、実行する必要があります。</p></dd>
+<dt>備考</dt>
+<dd><p>実行の際に管理者パスワードを要求されます。</p></dd></dl>
+<!--m5bbd018--></div>
+<div id="l9a47a57" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_3">list  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#l9a47a57" title="l9a47a57"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★★☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?cmd=list</strong></dd>
+<dt>概要</dt>
+<dd><p>ページの一覧を表示します。</p></dd></dl>
+<!--l9a47a57--></div>
+<div id="u9c3d366" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_4">lookup  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#u9c3d366" title="u9c3d366"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>（コマンド）</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#lookup(</strong>
+<span style="color:blue">interwikiname</span>
+[,<span style="color:blue">ボタン名</span>
+[,<span style="color:blue">入力欄の初期値</span>]]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>記述した位置にテキスト入力欄とボタンを表示します。任意の文字列を入力してボタンを押すと、interwikinameと入力値から生成したURLへ移動します。これによって、検索エンジンにクエリを送信したり、番号をタイプするだけで該当するアーカイブにアクセスすることなどが可能になります。</p>
+<p>URLの生成には<a href="/pack2011/modules/xpwiki/?InterWiki" title="InterWiki (2184d)" class="pagelink">InterWiki</a>を利用します。このプラグインが生成するURLは、以下のような<a href="/pack2011/modules/xpwiki/?InterWiki" title="InterWiki (2184d)" class="pagelink">InterWiki</a>と同じです。<a href="/pack2011/modules/xpwiki/?InterWikiName" title="InterWikiName (2304d)" class="pagelink">InterWikiName</a>のページに、あらかじめURLの生成に使用する<a href="/pack2011/modules/xpwiki/?InterWikiName" title="InterWikiName (2304d)" class="pagelink">InterWikiName</a>を設定しておく必要があります。</p>
+<div class="pre"><pre>[[interwikiname:入力欄の値]]</pre></div>
+<p>入力欄が空欄(空文字列)のときは、ボタンを押しても動作しません。必ず何らかの文字列を入力する必要があります。</p></dd></dl>
+<dl class="list1"><dt>引数</dt>
+<dd><p>interwikiname: <a href="/pack2011/modules/xpwiki/?InterWikiName" title="InterWikiName (2304d)" class="pagelink">InterWikiName</a>に設定した値の一つを指定します。</p>
+<p>ボタン名: ボタンに表示するキャプションを指定します。省略時は'lookup'です。</p>
+<p>入力欄の初期値: 初期値を指定したい場合に記入します。省略時は空文字列になります。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_LOOKUP_USAGE　引数未指定時に表示されるヘルプ</li></ul></dd></dl>
+<!--u9c3d366--></div>
+<div id="b596a628" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_5">ls  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#b596a628" title="b596a628"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#ls(</strong>
+[<span style="color:blue">title</span>]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>記述したページより階層化されているページのページ名を一覧表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>titleを指定した場合、ページ名に加えてタイトルを表示します。タイトルは各ページの一行目の内容を表示します。省略時はタイトルを表示しません。</p></dd>
+<dt>備考</dt>
+<dd><p>実際には、より高機能なls2を使用する機会が多いと思われます。</p></dd></dl>
+<!--b596a628--></div>
+<div id="d2ce34ea" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_6">ls2  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#d2ce34ea" title="d2ce34ea"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>（コマンド）</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#ls2(</strong>
+[[<span style="color:blue">パターン</span>]
+[,
+{
+[<span style="color:blue">title</span>],
+[<span style="color:blue">include</span>],
+[<span style="color:blue">reverse</span>],
+[<span style="color:blue">compact</span>],
+[<span style="color:blue">link</span>]
+}
+[,<span style="color:blue">linkの別名表示</span>]
+]]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>指定したパターンで始まるページ名を一覧表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>パターンには表示するページ名の共通部分を指定します。省略時は&quot;設置したページ名/&quot;となります。<br class="spacer" />
+また、「<span style="color:Blue;font-weight:bold;">ディレクトリ名</span><span style="color:Red;font-weight:bold;">:</span><span style="color:Blue;font-weight:bold;">ページパターン</span>」と指定して同じシステム上の別のxpWikiの一覧表示をすることもできます。</p>
+<p>title,include,reverse,compact,link で表示方法を指定します。</p>
+<ul class="list2"><li>title − ページに含まれる見出し(*,**,***)の一覧を併記します。</li>
+<li>include − 下位層のページが#includeを使用していた場合、includeしているページの一覧を表示します。</li>
+<li>reverse − ページの並び順を反転し、名前の降順に表示します。省略すると名前の昇順に表示されます。</li>
+<li>compact − 見出しレベルを調整します。</li>
+<li>link − #ls2を書いた位置に一覧を表示する代わりにリンクを表示します。このリンクを選択すると別画面にページの一覧を表示するようにします。</li></ul></dd>
+
+<dd><p>linkの別名表示には、パラメータlinkを指定した際に表示される文字列の代わりの文字列を指定します。省略時は<strong> '...'で始まるページの一覧</strong>となります。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_LS2_ANCHOR_PREFIX　見出しアンカーの書式</li>
+<li>PLUGIN_LS2_ANCHOR_ORIGIN　見出しアンカーの開始番号</li>
+<li>PLUGIN_LS2_LIST_COMPACT　compactオプション省略時、見出しレベルを調整するか</li></ul></dd>
+<dt>備考</dt>
+<dd><p>ls プラグインとの違いについて。</p>
+<ul class="list2"><li>階層化されたページの起点となるページが、lsでは記述したページ固定だが、ls2ではパラメータで指定できます。</li>
+<li>titleパラメータを指定した場合に、lsでは「ページの一行目」が表示されるが、ls2では「見出しの一覧」を表示します。</li>
+<li>include, link という表示オプションが追加されています。</li></ul></dd>
+
+<dd><p>ページ名のソートには<a href="http://www.php.net/manual/ja/function.natcasesort.php" title="www.php.net/manual/ja/function.natcasesort.php" class="ext">natcasesort()</a>を使っているため、昇順の場合、半角英数字よりも漢字の方が先に表示されます。</p></dd></dl>
+<hr class="full_hr" />
+<!--d2ce34ea--></div>
+<div id="cdfaaa0f" class="level2">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h2 id="content_4_7">M  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#cdfaaa0f" title="cdfaaa0f"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--cdfaaa0f--></div>
+<div id="i89f687e" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_8">map  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#i89f687e" title="i89f687e"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?plugin=map</strong>
+[<span style="color:blue">&amp;refer=ページ名</span>]
+[<span style="color:blue">&amp;reverse=true</span>]</dd></dl>
+<dl class="list1"><dt>概要</dt>
+<dd><p>サイトマップの様にページ間のリンク関係を一覧表示します。</p>
+<p>指定したページを起点に、リンクで辿れるページを全てツリー状に表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>引数には一覧表示方法のオプションを指定します。</p>
+<ul class="list2"><li>&amp;refer=ページ名 − 起点となるページを指定します。省略すると、サイトのトップページ(通常は<a href="/pack2011/modules/xpwiki/" title="FrontPage (2184d)" class="pagelink">FrontPage</a>)が起点となります。</li>
+<li>&amp;reverse=true − どこへリンクしているかではなく、どこからリンクされているかを一覧表示します。 どこからもリンクされていないページは、画面の後半にまとめて表示されます。</li></ul></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_MAP_SHOW_HIDDEN　表示対象外のページをリストアップするかどうか</li></ul></dd></dl>
+<!--i89f687e--></div>
+<div id="wec9aa1f" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_9">md5  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#wec9aa1f" title="wec9aa1f"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?plugin=md5</strong>
+<span style="color:blue">&amp;md5=文字列</span></dd>
+<dt>概要</dt>
+<dd><p>選択したパスワードの形式に応じて、pukiwiki.ini.php に保存する
+パスワード用文字列を出力します。</p>
+<p>パスワードのフォーマットは以下の8種類の中から選択できます。
+DESあるいはMD5アルゴリズムを利用したPHP crypt() および LDAP crypt <a id="notetext_3_4_*1" name="notetext_3_4_*1" href="#notefoot_3_4_*1" class="note_super" title="crypt()関数の出力はシステムに依存するため、移植性が高くありません">*1</a>、
+MD5 アルゴリズムを利用したPHP md5()、LDAP MD5、およびLDAP SMD5(シードあり)、
+SHA-1 アルゴリズムを利用したPHP sha()、LDAP SHA、および LDAP SSHA(シードあり)</p></dd></dl>
+<dl class="list1"><dt>備考</dt>
+<dd><p><a href="/pack2011/modules/xpwiki/?PukiWiki" title="PukiWiki (2184d)" class="pagelink">PukiWiki</a>内で利用するパスワードは、パスワード文字列そのものの代わりに、
+実際のパスワードから導出された文字列(セキュリティハッシュ)を保存することが可能です。<br />
+これは悪意ある者にpukiwiki.ini.phpの中身を覗き見られた場合に、
+パスワードが安易に漏洩しない事を目的としたものです。<br />
+<br />
+SHA-1 アルゴリズムを利用するためには、PHP 4.3.0 以降を使用するか mhash エクステンションを導入する必要があります。
+<br /></p>
+<p>プラグイン名に反してMD5以外のパスワードフォーマットも選択可能です。
+これは従来、パスワードから導出したMD5ハッシュ値を利用していた経緯によるものです。
+<br /></p>
+<p>md5のプラグインを呼び出すURLの中にパスワードを含める利用方法は互換性のため残っていますが、推奨されません。
+<br /></p>
+<p>このプラグインは PKWK_SAFE_MODE ないし PKWK_READONLY の設定で無効化されます。</p></dd></dl>
+<!--wec9aa1f--></div>
+<div id="h2cba975" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_10">memo  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#h2cba975" title="h2cba975"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>（コマンド）</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#memo</strong></dd>
+<dt>概要</dt>
+<dd><p>記述した位置に複数行入力欄とボタンを表示します。</p>
+<p>ボタンを押下すると入力欄の記述内容を更新します。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>MEMO_COLS　編集欄の表示桁数</li>
+<li>MEMO_ROWS　編集欄の表示行数</li></ul></dd>
+<dt>備考</dt>
+<dd><p>insertプラグインやarticleプラグインと似ていますが、入力した内容が入力欄の外へ出力されず、入力欄に留まる点が異なります。</p>
+<p>個人用のメモ代わりに<a href="/pack2011/modules/xpwiki/?PukiWiki" title="PukiWiki (2184d)" class="pagelink">PukiWiki</a>を利用している場合、未整理の情報を一時的に溜め込むのに便利です。</p></dd></dl>
+<!--h2cba975--></div>
+<div id="vc24ce14" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_11">menu  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#vc24ce14" title="vc24ce14"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★★☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#menu(</strong>
+<span style="color:blue">ページ名</span>
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>デフォルトのスキンにて、ページの左側にメニュー用のページ(<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>)を表示するために内部的に使用されています。</p>
+<p>任意のページでブロック型プラグインとして使用すると、引数に指定したページをメニュー用ページに指定できます。<br class="spacer" />
+例えば通常は<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>を表示するサイトで、hogeというページだけは<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>の代わりにhogeMenuというページを表示したい場合、hogeというページに #menu(hogeMenu) と記述する事で実現できます。</p>
+<p>ソース中のMENU_ENABLE_SUBMENU をTRUEとすると、表示中のページの上位階層の<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>か、同階層にある<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>ページをメニューとして表示するようになります。<br class="spacer" />
+例えば <a href="/pack2011/modules/xpwiki/" title="FrontPage (2184d)" class="pagelink">FrontPage</a>, <a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>, hoge, fuga, hoge/<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>, hoge/hoge というページが存在する場合は、<a href="/pack2011/modules/xpwiki/" title="FrontPage (2184d)" class="pagelink">FrontPage</a>、fuga、<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a> では <a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a> がメニューとして表示され、hoge,  hoge/<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>, hoge/hogeでは hoge/<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a> がメニューとして表示されます。</p></dd>
+<dt>引数</dt>
+<dd><p>メニュー用ページとして表示するページ名を指定します。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>MENU_ENABLE_SUBMENU　サブメニューを使用するか</li>
+<li>MENU_SUBMENUBAR　サブメニューを使用する場合にメニューとして呼び出されるページ名。デフォルトは <a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>。</li></ul></dd>
+<dt>備考</dt>
+<dd><p>デフォルトのメニュー用ページを<a href="/pack2011/modules/xpwiki/?MenuBar" title="MenuBar (2599d)" class="pagelink">MenuBar</a>以外のページとする場合は、pukiwiki.ini.php の $menubar を変更して下さい。</p></dd></dl>
+<hr class="full_hr" />
+<!--vc24ce14--></div>
+<div id="ge4daaa6" class="level2">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h2 id="content_4_12">N  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#ge4daaa6" title="ge4daaa6"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--ge4daaa6--></div>
+<div id="yd9441b2" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_13">navi  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#yd9441b2" title="yd9441b2"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#navi(</strong>
+[<span style="color:blue">目次ページ</span>]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p><a href="http://www.docbook.org/oasis/" title="www.docbook.org/oasis/" class="ext">DocBook</a>風ナビゲーションバーを表示します。</p>
+<p>目次となるページに下階層のページが存在する時、それら全てのページ（の先頭と末尾）に記述する事で Prev, Home, Next というリンクを表示します。これによって下階層のページを順に参照するのに便利になります。</p></dd>
+<dt>引数</dt>
+<dd><p>目次ページに順番に見て回るページの上階層にあたるページを指定します。</p>
+<p>例えば hoge, hoge/1, hoge/2, hoge/3 というページが存在する場合、hoge/2に#navi(hoge)を記述するとhogeに移動するHomeというリンク、hoge/1に移動するPrevというリンク、hoge/3に移動するNextというリンクを表示します。</p>
+<p>ページで最初に呼び出した場合はヘッダイメージのリンクを出力します。ページで２度目以降に呼び出された場合はフッタイメージのリンクを出力します。現在のページが目次ページである場合は対象となるページの一覧を表示します。</p></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_NAVI_EXCLUSIVE_REGEX　除外するページを正規表現で指定する</li>
+<li>PLUGIN_NAVI_LINK_TAGS　&lt;link&gt;タグを出力するかどうか</li></ul></dd></dl>
+<!--yd9441b2--></div>
+<div id="meab71a6" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_14">new  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#meab71a6" title="meab71a6"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>インライン型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+
+<dt><em>書式1:</em></dt>
+<dd><strong>&amp;new(</strong>
+[<span style="color:blue">nodate</span>]
+<strong>){</strong>
+<span style="color:blue">日付文字列</span>
+<strong>};</strong></dd>
+<dt><em>書式2:</em></dt>
+<dd><strong>&amp;new(</strong>
+[<span style="color:blue">ページ名</span>]
+[,<span style="color:blue">nolink</span>]
+<strong>);</strong></dd>
+<dt>概要</dt>
+<dd><p>指定した日時が最近であった場合、最近更新された事を強調表示します。日時の指定は直接日付時刻を記述する方法(<em>書式1</em>)と、指定したページ（群）の最終更新日時を採用する方法(<em>書式2</em>)の２通りがあります。</p>
+<p>標準では5日以内の場合に <strong>New</strong> を、１日以内の場合に <strong>New!</strong> を表示します。期間や表示する文字列のパターンは設置者によってカスタマイズ可能です。</p></dd>
+<dt>引数</dt>
+<dd><p><em>書式1:</em></p>
+<p>日付文字列を指定した場合、その日時が規定の期間内であった場合に強調表示します。省略した場合はページの更新日時をチェックする記述であると見なされます。</p>
+<ul class="list2"><li>nodate − 日付文字列を表示しません。省略時は表示します。</li></ul></dd>
+
+<dd><p><em>書式2:</em></p>
+<p>ページ名を指定した場合は、そのページの更新日時が規定の期間内であった場合に強調表示します。省略した場合は、プラグインを記述したそのページを指定したと見なします。</p>
+<p>ページ名末尾が/であった場合、そのページ名で始まるページ群の中で最後の更新日時が規定の日付以内であった場合に強調表示します。</p>
+<ul class="list2"><li>nolink − ページ名を表示しません。省略時はページ名（ページ群で指定した場合は最後に更新されたページ名）を表示します。</li></ul></dd>
+<dt>プラグイン内設定</dt>
+<dd><br />
+<ul class="list2"><li>PLUGIN_NEW_DATE_FORMAT　表示フォーマット</li></ul></dd>
+<dt>備考</dt>
+<dd><p>日付文字列は[[PHP関数:strtotime]]が認識できる書式である必要があります。</p></dd></dl>
+<!--meab71a6--></div>
+<div id="lec55a94" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_15">newpage  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#lec55a94" title="lec55a94"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★★★</p></dd>
+<dt>書式</dt>
+<dd><strong>?plugin=newpage</strong>
+<span style="color:blue">&amp;page=ページ名</span>
+<span style="color:blue">&amp;refer=関連ページ名</span>
+<p><strong>#newpage(</strong>
+[<span style="color:blue">ページ名初期値</span>]
+<strong>)</strong></p></dd>
+<dt>概要</dt>
+<dd><p>ページを新規作成するか、新規作成するページ名の入力欄を表示します。</p></dd>
+<dt>引数</dt>
+<dd><p><em>コマンド:</em></p>
+<p>パラメータには新規作成するページのオプションを指定します。</p>
+<p>ページ名には新規作成するページ名を指定します。省略時は新規作成するページ名の入力するためのページを表示します。ページ名はエンコードされている必要があります。</p>
+<p>関連ページ名にはリンク元のページ名を指定します。新規作成するページの先頭に、ここで指定したページへのリンクが自動的に埋め込まれます。ページ名はエンコードされている必要があります。
+<br /></p>
+<p><em>ブロック型プラグイン:</em></p>
+<p>ページ名初期値には新規作成するページ名を入力する入力欄に初期表示する文字列を指定します。</p></dd></dl>
+<!--lec55a94--></div>
+<div id="s8c0fa4c" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_16">nofollow  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#s8c0fa4c" title="s8c0fa4c"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>#nofollow</strong></p></dd>
+<dt>概要</dt>
+<dd><p>記述したページが凍結されている場合、ヘッダーに「NOFOLLOW」「NOINDEX」オプションを追加させます。</p>
+<p>これらのオプションは検索エンジンに対し「このページを無視して欲しい」と主張します。実際にどうなるのかは検索エンジン次第です。</p></dd>
+<dt>備考</dt>
+<dd><p>人間や、上記のオプションを無視するプログラムには効果がありません。</p></dd></dl>
+<!--s8c0fa4c--></div>
+<div id="uebd3c7c" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_4_17">norelated  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FL-N#uebd3c7c" title="uebd3c7c"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★★☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#norelated</strong></dd>
+<dt>概要</dt>
+<dd><p>ページ下部に表示される関連ページのリンクを非表示にします。</p></dd>
+<dt>備考</dt>
+<dd><p>極端に多くのページからリンクされていて関連リンクの表示が目障りである場合などに利用します。</p></dd></dl>
+
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+<!--uebd3c7c--></div>
+
+";s:4:"root";a:10:{s:12:"foot_explain";a:1:{s:2:"*1";s:224:"<a id="notefoot_3_4_*1" name="notefoot_3_4_*1" href="#notetext_3_4_*1" class="note_super">*1</a>
+<span class="small">crypt()関数の出力はシステムに依存するため、移植性が高くありません</span><br />";}s:13:"head_pre_tags";a:0:{}s:9:"head_tags";a:0:{}s:7:"related";a:5:{s:9:"InterWiki";i:1136784511;s:13:"InterWikiName";i:1126385914;s:9:"FrontPage";i:1136776235;s:8:"PukiWiki";i:1136771431;s:7:"MenuBar";i:1100902204;}s:7:"runmode";N;s:13:"content_title";s:1:"L";s:7:"nonflag";a:1:{s:7:"related";b:1;}s:15:"replaces_finish";a:0:{}s:18:"pagecache_profiles";s:0:"";s:16:"meta_description";s:338:"種別インライン型プラグイン重要度★☆☆☆☆書式&amp;lastmod([ページ名]);概要指定したページの最終更新日時を表示します。引数ページ名には最終更新日時を表示したいページ名を指定します。省略時は設置したページとみなします。種別コマンド重要";}s:4:"cont";a:1:{s:12:"SKIN_CHANGER";i:1;}s:7:"globals";a:0:{}}

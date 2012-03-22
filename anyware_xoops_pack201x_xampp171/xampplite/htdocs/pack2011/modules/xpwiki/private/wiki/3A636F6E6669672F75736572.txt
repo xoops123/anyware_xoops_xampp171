@@ -1,0 +1,8 @@
+#freeze
+#pginfo(1		admin	3	none	none	3	all	all	1		admin	1		)
+* ユーザー設定 [#fbd923b4]
+
+:config/user 以下のページはユーザー固有の設定を保存するページです。
+
+:ページ編集(ご自分のユーザーIDを確認して編集してください)|
+#newpage(this,$uname)

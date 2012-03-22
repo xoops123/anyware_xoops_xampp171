@@ -1,0 +1,127 @@
+a:4:{s:4:"body";s:8867:"
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+
+
+<!--description ignore-->
+<div class="contents">
+ <div class="toc_header">
+  ページ内コンテンツ
+ </div>
+ <div class="toc_body">
+  <ul class="list1"><li><a href="#be6c635c">  V </a>
+<ul class="list2"><li><a href="#v924021a"> version </a></li>
+<li><a href="#n3c07f6b"> versionlist </a></li>
+<li><a href="#aa4fb1f8"> vote </a></li></ul></li>
+<li><a href="#kb2afc33">  Y </a>
+<ul class="list2"><li><a href="#v5902d84"> yetlist </a></li></ul></li></ul>
+ </div>
+</div>
+<!--/description ignore-->
+
+<hr class="full_hr" />
+<div id="be6c635c" class="level2">
+<h2 id="content_9_0">V  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FV-Z#be6c635c" title="be6c635c"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--be6c635c--></div>
+<div id="v924021a" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_9_1">version  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FV-Z#v924021a" title="v924021a"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>ブロック型プラグイン</p>
+<p>インライン型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>#version</strong></p>
+<p><strong>&amp;version</strong><strong>;</strong></p></dd>
+<dt>概要</dt>
+<dd><p>インストールされている<a href="/pack2011/modules/xpwiki/?PukiWiki" title="PukiWiki (2184d)" class="pagelink">PukiWiki</a>のバージョンを表示します。</p></dd></dl>
+<!--v924021a--></div>
+<div id="n3c07f6b" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_9_2">versionlist  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FV-Z#n3c07f6b" title="n3c07f6b"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★☆☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><p><strong>?plugin=versionlist</strong></p>
+<p><strong>#versionlist</strong></p></dd>
+<dt>概要</dt>
+<dd><p>pukiwiki.phpのあるディレクトリとpluginのディレクトリ内のphpファイルのバージョンを表示します。</p></dd></dl>
+<!--n3c07f6b--></div>
+<div id="aa4fb1f8" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_9_3">vote  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FV-Z#aa4fb1f8" title="aa4fb1f8"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p>
+<p>ブロック型プラグイン</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>#vote(</strong>
+<span style="color:blue">選択肢1</span>[<span style="color:blue">選択肢1の投票数</span>]
+[,<span style="color:blue">選択肢2</span>[<span style="color:blue">選択肢2の投票数</span>]
+[,<span style="color:blue">選択肢3</span>[<span style="color:blue">選択肢3の投票数</span>]…
+[,<span style="color:blue">選択肢n</span>[<span style="color:blue">選択肢nの投票数</span>]]]
+<strong>)</strong></dd>
+<dt>概要</dt>
+<dd><p>選択肢と投票数と投票ボタンが並んだ簡易投票フォームを表示します。</p></dd>
+<dt>引数</dt>
+<dd><p>選択肢1〜nに投票項目を指定します。投票項目に続けて半角大括弧&quot;[]&quot;で括った数値を指定すると選択肢の投票数を指定できます。</p></dd>
+<dt>備考</dt>
+<dd><p>各選択肢の投票数は編集によって容易に改竄できるため、厳密な投票には向きません。</p></dd></dl>
+<hr class="full_hr" />
+<!--aa4fb1f8--></div>
+<div id="kb2afc33" class="level2">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h2 id="content_9_4">Y  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FV-Z#kb2afc33" title="kb2afc33"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h2>
+<!--kb2afc33--></div>
+<div id="v5902d84" class="level3">
+<div class="jumpmenu"><a href="#xpwiki_navigator" title="Page Top"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=arrow_up.png" alt="Page Top" width="16" height="16" /></a></div><h3 id="content_9_5">yetlist  <a class="anchor_super" href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FV-Z#v5902d84" title="v5902d84"><img src="/pack2011/modules/xpwiki/skin/loader.php?src=anchor.png" alt="anchor.png" height="12" width="12" /></a> 
+<!--description ignore-->
+
+<!--/description ignore--></h3>
+<dl class="list1"><dt>種別</dt>
+<dd><p>コマンド</p></dd>
+<dt>重要度</dt>
+<dd><p>★★☆☆☆</p></dd>
+<dt>書式</dt>
+<dd><strong>?plugin=yetlist</strong></dd>
+<dt>概要</dt>
+<dd><p>まだ作られていないページを一覧表示します。</p>
+<p>まだ作られていないページとは、既存のページで<a href="/pack2011/modules/xpwiki/?WikiName" title="WikiName (2591d)" class="pagelink">WikiName</a>あるいは<a href="/pack2011/modules/xpwiki/?BracketName" title="BracketName (2184d)" class="pagelink">BracketName</a>で指定されていて、まだ作られていないページです。</p></dd>
+<dt>備考</dt>
+<dd><p>自分以外の誰かがページを書くかもしれないという点は非常にWiki的ですが、実際の運用面ではcommentに記述された一見さんの名前や<a href="/pack2011/modules/xpwiki/?WikiName" title="WikiName (2591d)" class="pagelink">WikiName</a>同様のパラメータ名など、ページ化しにくいキーワードが大量に引っかかってしまいます。</p></dd></dl>
+
+<!--description ignore-->
+<hr class="full_hr" />
+<ul class="navi">
+ <li class="navi_left"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Prev</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">PukiWiki&#8203;/1.4&#8203;/Manual&#8203;/Plugin</a></li>
+ <li class="navi_right"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">Next</a><br /><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin%2FE-G" title="PukiWiki/1.4/Manual/Plugin/E-G (2039d)" class="pagelink">E-G</a></li>
+ <li class="navi_none"><a href="/pack2011/modules/xpwiki/?PukiWiki%2F1.4%2FManual%2FPlugin" title="PukiWiki/1.4/Manual/Plugin (2415d)" class="pagelink">Home</a></li>
+</ul>
+<div style="clear:both;height:0px;"> </div>
+<!--/description ignore-->
+<!--v5902d84--></div>
+
+";s:4:"root";a:10:{s:12:"foot_explain";a:0:{}s:13:"head_pre_tags";a:0:{}s:9:"head_tags";a:0:{}s:7:"related";a:3:{s:8:"PukiWiki";i:1136771431;s:8:"WikiName";i:1101622103;s:11:"BracketName";i:1136771431;}s:7:"runmode";N;s:13:"content_title";s:1:"V";s:7:"nonflag";a:1:{s:7:"related";b:1;}s:15:"replaces_finish";a:0:{}s:18:"pagecache_profiles";s:0:"";s:16:"meta_description";s:294:"種別ブロック型プラグインインライン型プラグイン重要度★☆☆☆☆書式#version&amp;version;概要インストールされているPukiWikiのバージョンを表示します。種別コマンドブロック型プラグイン重要度★☆☆☆☆書式?plugin=ve";}s:4:"cont";a:1:{s:12:"SKIN_CHANGER";i:1;}s:7:"globals";a:0:{}}

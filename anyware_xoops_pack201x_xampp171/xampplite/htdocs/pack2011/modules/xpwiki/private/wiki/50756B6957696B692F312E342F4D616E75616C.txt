@@ -1,0 +1,5 @@
+#freeze
+#pginfo(1		admin	3	all	all	3	all	all	1		admin	1		)
+#nofollow
+#norelated
+#ls2

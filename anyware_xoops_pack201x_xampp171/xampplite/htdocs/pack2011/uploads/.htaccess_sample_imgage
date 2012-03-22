@@ -1,0 +1,7 @@
+Order Deny,Allow
+Deny from All
+Options +IncludesNoExec
+<FilesMatch "\.(gif|jpe?g|png|doc|bmp|xls|txt|pdf|swf|flv|fla|avi|mpg|mpeg|mov)$">
+Order Deny,Allow
+Allow from All
+</FilesMatch>
