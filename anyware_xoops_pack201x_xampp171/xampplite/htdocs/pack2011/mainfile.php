@@ -31,12 +31,12 @@ if ( !defined("XOOPS_MAINFILE_INCLUDED") ) {
     // XOOPS Physical Path
     // Physical path to your main XOOPS directory WITHOUT trailing slash
     // Example: define('XOOPS_ROOT_PATH', 'Z:/xampplite/htdocs/pack2011');
-    define('XOOPS_ROOT_PATH', 'Z:/xampplite/htdocs/pack2011');
+    define('XOOPS_ROOT_PATH', substr(__FILE__,0,1).':/xampp/htdocs/pack2011');
 	
     // XOOPS Trusted Path
     // This is option. If you need this path, input value. The trusted path
     // should be a safety directory which web browsers can't access directly.
-    define('XOOPS_TRUST_PATH', 'Z:/xampplite/xoops_trust_path');
+    define('XOOPS_TRUST_PATH', substr(__FILE__,0,1).':/xampp/xoops_trust_path');
 
     // XOOPS Virtual Path (URL)
     // Virtual path to your main XOOPS directory WITHOUT trailing slash
